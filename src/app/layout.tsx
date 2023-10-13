@@ -17,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-priamary`}>
+      <body
+        suppressHydrationWarning={true}
+        className={`${inter.className} bg-priamary`}
+      >
         {children}
         <TwScreenInfo />
       </body>
