@@ -2,13 +2,13 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className=" items-center justify-between max-w-[90%] ">
-    <div className="  justify-start items-end gap-[93px] flex">
+    <section className="items-center justify-between max-w-[100%]">
+    <div className="justify-start items-end gap-[93px] flex">
       <div className="flex-col justify-start items-start gap-14 inline-flex">
         <div className="flex-col justify-start items-start gap-8 flex">
-          <div className="w-[674px]">
+          <div className="w-full md:w-[674px] mx-auto text-center"> 
             <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
-              Your Complete{" "} <br />
+              Your Complete <br />
             </span>
             <span className="text-pink-500 text-5xl font-bold font-Roboto tracking-wider">
               Digital Solutions
@@ -18,7 +18,7 @@ function HeroSection() {
               Partner
             </span>
           </div>
-          <div className="w-[697px] text-white text-[32px] font-normal font-Roboto leading-[47.42px]">
+          <div className="w-full md:w-[697px] text-white text-[32px] font-normal font-Roboto leading-[47.42px] mx-auto text-center">
             Unleash Your Business Potential with Expert IT, Web, Mobile
             Development, Product Innovation, Social Media Branding, and Digital
             Marketing Strategies

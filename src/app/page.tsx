@@ -5,6 +5,10 @@ import Footer from "@/components/Footer";
 import Brand from "@/components/sections/brand";
 import About from "@/components/sections/about";
 import Services from "@/components/sections/services";
+import Unlock from "@/components/sections/unlock";
+import Testimonial from "@/components/sections/testimonial";
+import Info from "@/components/sections/info";
+
 
 
 export default function Home() {
@@ -14,7 +18,11 @@ export default function Home() {
       <HeroSection/>
       <Brand/>
       <Services/>
+      <Unlock/>
+      <Testimonial/>
+      <Info/>
       <Footer/>
+      
       
       
 
