@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Line from "@/components/Line";
 import HeroSection from "@/components/sections/hero";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Nav/>
       <Line/>
       <HeroSection/>
+      <Footer/>
 
     </main>
   )

@@ -7,7 +7,7 @@ function HeroSection() {
       {/* text  */}
       <div className="flex flex-col justify-between h-full gap-8  md:max-w-[35em] w-full ">
         <div className="  flex-col justify-start items-start gap-[2rem] flex  ">
-          <div className="text-neutral-200 text-[1.5rem] font-semibold md:text-[3rem]">
+          <div className="text-[1.5rem] font-semibold md:text-[3rem] text-pk bg-gradient-pp">
             Build Your Professional
             <br />
             Resume with Simple Login
