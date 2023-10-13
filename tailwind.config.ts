@@ -14,7 +14,8 @@ const config: Config = {
         pe:"#644898",
       },
       backgroundImage:{
-        "gradient-pp" : " linear-gradient(#D058B7, #644898)"},
+        "gradient-pp" : " linear-gradient(0.25turn, #644898, #D058B7)"
+      },
     },
   },
   plugins: [],

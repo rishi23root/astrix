@@ -4,7 +4,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="flex items-center justify-between ">
+    <div className="flex items-center justify-between border w-[95%] ">
       <Image
         className="w-40 h-12 lg:w-72 lg:h-16 "
         alt="main logo"
