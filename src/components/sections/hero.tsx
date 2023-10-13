@@ -1,90 +1,132 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
 
 function HeroSection() {
   return (
-    <section className="fcb min-h-[55vh] my-10 justify-center md:gap-20 gap-8 md:justify-between  px-auto fc md:fr border w-[95%]">
-      {/* text  */}
-      <div className="flex flex-col justify-between h-full gap-8  md:max-w-[35em] w-full ">
-        <div className="  flex-col justify-start items-start gap-[2rem] flex  ">
-          <div className="text-[1.5rem] font-semibold md:text-[3rem]  bg-gradient-pp text-transparent bg-clip-text ">
-            Build Your Professional
-            <br />
-            Resume with Simple Login
+    <section className=" items-center justify-between max-w-[90%] ">
+    <div className="  justify-start items-end gap-[93px] flex">
+      <div className="flex-col justify-start items-start gap-14 inline-flex">
+        <div className="flex-col justify-start items-start gap-8 flex">
+          <div className="w-[674px]">
+            <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
+              Your Complete{" "} <br />
+            </span>
+            <span className="text-pink-500 text-5xl font-bold font-Roboto tracking-wider">
+              Digital Solutions
+              <br />
+            </span>
+            <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
+              Partner
+            </span>
           </div>
-          <div className="flex flex-col items-start justify-between p-4 ">
-            <div className="flex items-start justify-start gap-1 ">
-              <Image
-                className="w-[22px] h-[17px]"
-                alt="arrow svg"
-                src="/svgs/arrow.svg"
-                width={22}
-                height={17}
-              />
-              <div className="text-[17px] font-medium text-pk">
-                Find Your Starting Point, Craft Your Perfect Resume
-              </div>
-            </div>
-            <div className="flex items-start justify-start gap-1 ">
-              <Image
-                className="w-[22px] h-[17px]"
-                alt="arrow svg"
-                src="/svgs/arrow.svg"
-                width={22}
-                height={17}
-              />
-              <div className="  text-[17px] font-medium">
-                Master the Art of Resume Writing with Best Practices
-              </div>
-            </div>
-            <div className="flex items-start justify-start gap-1 ">
-              <Image
-                className="w-[22px] h-[17px]"
-                alt="arrow svg"
-                src="/svgs/arrow.svg"
-                width={22}
-                height={17}
-              />
-              <div className=" text-zinc-400 text-[17px] font-medium">
-                Unlock Success with Mentor-Recommended Templates
-              </div>
-            </div>
-            <div className="flex items-start justify-start gap-1 ">
-              <Image
-                className="w-[22px] h-[17px]"
-                alt="arrow svg"
-                src="/svgs/arrow.svg"
-                width={22}
-                height={17}
-              />
-              <div className=" text-pe text-[17px] font-medium">
-                Get Noticed by HR - Make Your Resume Irresistible
-              </div>
-            </div>
-            <div className="flex items-start justify-start gap-1 ">
-              <Image
-                className="w-[22px] h-[17px]"
-                alt="arrow svg"
-                src="/svgs/arrow.svg"
-                width={22}
-                height={17}
-              />
-              <div className=" text-zinc-400 text-[17px] font-medium">
-                Rise Above the Rest - Stand Out from Your Peers
-              </div>
-            </div>
+          <div className="w-[697px] text-white text-[32px] font-normal font-Roboto leading-[47.42px]">
+            Unleash Your Business Potential with Expert IT, Web, Mobile
+            Development, Product Innovation, Social Media Branding, and Digital
+            Marketing Strategies
           </div>
         </div>
-        {/* button */}
-        <div className="p-4 px-16 rounded-lg bg-gradient-to-r from-blue-600 to-fuchsia-500 border-stone-500 w-fit">
-          <div className="text-center text-neutral-200 md::text-[2.3rem] font-medium">
-            Build Your Resume
+        <div className="justify-start items-center gap-[38px] inline-flex">
+          <div className="w-[251px] h-[88px] relative">
+            <div className="w-[251px] h-[88px] left-0 top-0 absolute rounded-[14px] border-2 border-white" />
+            <div className="left-[34px] top-[25px] absolute text-center text-white text-[32px] font-bold font-Roboto">
+              Consult Now
+            </div>
+          </div>
+          <div className="text-center text-pink-500 text-[32px] font-bold font-Roboto">
+            Download Brochure
           </div>
         </div>
       </div>
-
-      {/* images  */}
+      <div className="justify-start items-start gap-2.5 md:flex">
+        <div className="w-[500px] h-[630px] relative">
+          <div className="w-[500px] h-[630px] left-0 top-0 absolute bg-stone-500" />
+          {/* <img
+            className="w-[1280px] h-[876.91px] left-[-44px] top-[-130px] absolute"
+            src="https://via.placeholder.com/1280x877"
+          /> */}
+          {/* <div className="w-[1191px] h-[793px] left-[-440px] top-[-21px] absolute" />
+          <div className="w-[946px] left-[1030px] top-[772px] absolute text-center">
+            <span className="text-pink-500 text-[47px] font-medium font-Roboto leading-[74.67px]">
+              Trusted
+            </span>
+            <span className="text-gray-100 text-[47px] font-medium font-Roboto leading-[74.67px]">
+              {" "}
+              by Top Brands: Astrix - Your Trusted Partner for Innovation and
+              Excellence
+            </span>
+          </div> */}
+        </div>
+        {/* <div className="justify-start items-center gap-[19px] flex">
+          <div className="w-[203.56px] h-[84px] relative">
+            <div className="w-[69.56px] h-20 left-[134px] top-0 absolute">
+              <img
+                className="w-[69.56px] h-20 left-0 top-0 absolute"
+                src="https://via.placeholder.com/70x80"
+              />
+              <img
+                className="w-[86px] h-[82px] left-[-16px] top-0 absolute"
+                src="https://via.placeholder.com/86x82"
+              />
+            </div>
+            <div className="w-[69.56px] h-20 left-[72.44px] top-[2px] absolute">
+              <img
+                className="w-[69.56px] h-20 left-0 top-0 absolute"
+                src="https://via.placeholder.com/70x80"
+              />
+              <img
+                className="w-[102px] h-[153px] left-[-25.44px] top-[-10px] absolute"
+                src="https://via.placeholder.com/102x153"
+              />
+            </div>
+            <div className="w-20 h-20 left-0 top-[4px] absolute">
+              <div className="w-20 h-20 left-0 top-0 absolute bg-stone-500 rounded-full" />
+              <img
+                className="w-[84px] h-[126px] left-[-2px] top-[-7px] absolute"
+                src="https://via.placeholder.com/84x126"
+              />
+            </div>
+          </div>
+          <div className="relative">
+            <div className="left-0 top-0 absolute text-white text-xl font-bold font-['Plus Jakarta Sans'] leading-7">
+              49+ Businesses
+            </div>
+            <div className="left-[1px] top-[30px] absolute text-stone-300 text-base font-medium font-['Plus Jakarta Sans'] leading-snug">
+              Boosted their business with us
+            </div>
+          </div>
+        </div>
+        <div className="self-stretch flex-col justify-start items-start gap-[50px] inline-flex">
+          <div>
+            <span className="text-white text-[40px] font-semibold font-['Poppins'] leading-[88px]">
+              99+
+              <br />
+            </span>
+            <span className="text-white text-xs font-semibold font-['Plus Jakarta Sans'] leading-relaxed">
+              Project Complete
+            </span>
+          </div>
+          <div>
+            <span className="text-white text-[40px] font-semibold font-['Poppins'] leading-[88px]">
+              30+
+              <br />
+            </span>
+            <span className="text-white text-xs font-semibold font-['Plus Jakarta Sans'] leading-relaxed">
+              Happy Client
+            </span>
+          </div>
+          <div>
+            <span className="text-white text-[40px] font-semibold font-['Poppins'] leading-[88px]">
+              2+
+              <br />
+            </span>
+            <span className="text-white text-xs font-semibold font-['Plus Jakarta Sans'] leading-relaxed">
+              Years Experience
+            </span>
+          </div>
+        </div> */}
+      </div>
+    </div>
     </section>
+
   );
 }
 
