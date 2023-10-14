@@ -3,7 +3,7 @@ import curve from "../../../public/svgs/curve.svg";
 
 function About() {
   return (
-    <section className="">
+    <section className="border w-[100%]">
     <div className="w-full p-[-10]">
       <div className=" bg-zinc-950 rounded-bl-[50px] rounded-br-[50px] h-auto p-10">
         <div className="  h-auto  bg-white rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[50px] rounded-br-[50px]">
@@ -12,7 +12,7 @@ function About() {
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <div className="  ">
                 <div className="flex justify-center items-center h-screen/2">
-                  <div className="text-center">
+                  <div className="text-center mt-10">
                     <span className="text-zinc-900 lg:text-5xl text-3xl font-medium font-Roboto">
                       We are <br />
                       humans who{" "}
