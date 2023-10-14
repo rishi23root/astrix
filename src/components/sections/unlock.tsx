@@ -6,23 +6,23 @@ export default function Unlock() {
   return (
     <>
 
-    {/* hidden md:block Version */}
-    <div className="  lg:block  w-[100%] border h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+    {/* mobile Version */}
+    <div className=" hidden lg:inline-flex  w-[100%] border h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[31px] flex">
           <div className="w-[90%] text-center mt-40">
-            <span className="text-gray-100 text-5xl font-medium font-Roboto">
+            <span className="text-gray-100 text-5xl md:text-3xl font-medium font-Roboto">
               Unlock the future of efficiency with our <br />
             </span>
-            <span className="text-pink-500 text-5xl font-medium font-Roboto">
+            <span className="text-pink-500 text-5xl md:text-3xl font-medium font-Roboto">
               {" "}
               AI Automation
             </span>
-            <span className="text-gray-100 text-5xl font-medium font-Roboto">
+            <span className="text-gray-100 text-5xl md:text-3xl font-medium font-Roboto">
               {" "}
               services
             </span>
           </div>
-          <div className="w-[60%] text-center text-gray-100 text-xl font-light font-Roboto">
+          <div className="w-[60%] text-center text-gray-100 md:text-sm text-xl font-light font-Roboto">
             Our AI Automation services harness the power of artificial
             intelligence to automate repetitive tasks, make data-driven
             decisions, and optimize workflows across your organization.
