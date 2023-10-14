@@ -9,7 +9,7 @@ function Footer() {
       <div className="container mx-auto px-4 flex flex-col items-center relative mt-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 b">
           <div className="mb-8 md:mb-0">
-            <Image src="./logo.png" className="w-60 h-auto" alt="" />
+            <Image src="/logo.png" width={300} height={500} className="w-60 h-auto" alt="" />
             <br />
             <div className="flex-col justify-center items-center gap-[10px] flex text-center">
               <div className="text-white text-lg font-normal font-['Roboto'] leading-normal ">
