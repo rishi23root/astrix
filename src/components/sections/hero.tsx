@@ -27,7 +27,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <section className="items-center justify-between max-w-[100%] mt-10">
+    <section className="items-center justify-between max-w-[100%] mt-10 border ">
       <div className="justify-start items-end gap-[80px] flex flex-col md:flex-row">
         <div className="flex-col justify-start items-start gap-14 inline-flex ">
           <div className="flex-col justify-start items-start gap-8 flex">
@@ -43,7 +43,7 @@ function HeroSection() {
                 Partner
               </span>
             </div>
-            <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left text-justify custom-service-1">
+            <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left  custom-service-1">
               Unleash Your Business Potential with Expert IT, Web, Mobile
               Development, Product Innovation, Social Media Branding, and
               Digital Marketing Strategies
@@ -65,10 +65,10 @@ function HeroSection() {
         <div className="justify-start items-start gap-2.5 md:flex">
           <div className="w-full md:w-[500px] h-[70vh] relative">
             <div className="w-full md:w-[500px] h-[70vh] left-0 top-0 absolute bg-stone-500" />
-            <img
+            {/* <img
               className="absolute w-full bottom-0"
-              src="https://via.placeholder.com/1280x877"
-            />
+              src=""
+            /> */}
           </div>
 
           <div className="w-[104px] h-[379px] flex-col justify-start items-start gap-[50px] inline-flex">

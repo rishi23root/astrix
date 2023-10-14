@@ -1,5 +1,5 @@
 import TwScreenInfo from "@/components/custom/TwScreenInfo";
-import "./globals.css";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning={true}
-        className={`${inter.className} bg-priamary`}
+        className={`${inter.className} bg-background`}
       >
         {children}
         <TwScreenInfo />
