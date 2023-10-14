@@ -82,6 +82,10 @@
   .fcc {
     @apply flex items-center justify-center;
   }
+  .fsc{
+    @apply flex items-center justify-start;
+
+  }
   .fce {
     @apply flex items-center justify-evenly;
   }

@@ -29,29 +29,25 @@ function HeroSection() {
 
   return (
     <section className="w-full fc fcc relative">
-      <div className="w-[80%] my-16 fr  flex-wrap xl:flex-nowrap gap-4">
-        <div className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  p-16">
-          <div className="fc self-start gap-8 lg:mx-8">
-            <div className="text-center text-white text-7xl md:text-5xl md:text-left font-bold font-Roboto tracking-wider">
+      <div className="w-[80%] my-16 fr  flex-wrap xl:flex-nowrap gap-8">
+        <div className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  md:p-16">
+          <div className="fc self-start gap-8 lg:mx-8 ">
+            <div className="text-center text-white text-3xl sm:text-5xl md:text-7xl md:text-left font-bold font-Roboto tracking-wider">
               Your Complete <br />
               <span className="bg-gradient-pp text-transparent bg-clip-text">
                 Digital Solutions <br />
               </span>
               Partner
             </div>
-            <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left">
+            <div className="w-full md:w-[450px] text-white text-md md:text-xl font-normal font-Roboto  text-center md:text-left">
               Unleash Your Business Potential with Expert IT, Web, Mobile
               Development, Product Innovation, Social Media Branding, and
               Digital Marketing Strategies
             </div>
           </div>
-          <div className="fr items-center gap-16 lg:mx-8 ">
-            <div className="w-[180px] h-[60px] relative">
-              <div className="w-[180px] h-[60px] left-0 top-0 absolute rounded-[14px] border-2 border-white">
-                <div className="p-5 absolute inset-0 flex items-center justify-center text-center text-white text-xl font-bold font-Roboto ">
-                  Consult Now
-                </div>
-              </div>
+          <div className="fr items-center gap-8 lg:mx-8 flex-wrap fcc md:flex-nowrap md:fsc">
+            <div className="text-white p-4 px-8 border-2 rounded-lg">
+              Consult Now
             </div>
             <div className="text-center text-pk text-xl font-bold font-Roboto">
               Download Brochure
@@ -68,15 +64,15 @@ function HeroSection() {
               height={800}
               alt="images absolute top-0 left-0 "
             />
-            <div className="absolute top-[50%] -translate-y-[50%] right-4 fc fcc gap-20 text-white">
-              <div className="text-3xl font-semibold font-Poppins leading-[1.2em]">
+            <div className="absolute top-[50%] -translate-y-[50%] right-0 fc fcc gap-10 md:gap-20 text-white w-16 md:w-auto">
+              <div className="text-xl md:text-3xl font-semibold font-Poppins leading-[1.2em]">
                 +<span id="count1">0</span>
                 <br />
                 <span className="text-xs font-semibold font-Plus Jakarta Sans leading-relaxed">
                   Project Complete
                 </span>
               </div>
-              <div className="text-3xl font-semibold font-Poppins leading-[1.2em]">
+              <div className="text-xl md:text-3xl font-semibold font-Poppins leading-[1.2em]">
                 +<span id="count2">0</span>
                 <br />
                 <span className="text-xs font-semibold font-Plus Jakarta Sans leading-relaxed">
@@ -84,14 +80,7 @@ function HeroSection() {
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </span>
               </div>
-              {/* <div className=" text-3xl font-semibold font-Poppins leading-[1.2em]">
-                +<span id="count2">0</span>
-                <br />
-                <span className="text-xs font-semibold font-Plus Jakarta Sans leading-relaxed">
-                  Happy Client
-                </span>
-              </div> */}
-              <div className="text-3xl font-semibold font-Poppins leading-[1.2em]">
+              <div className="text-xl md:text-3xl font-semibold font-Poppins leading-[1.2em]">
                 +<span id="count3">0</span>
                 <br />
                 <span className="text-xs font-semibold font-Plus Jakarta Sans leading-relaxed">
