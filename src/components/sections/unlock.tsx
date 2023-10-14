@@ -7,7 +7,7 @@ export default function Unlock() {
     <>
 
     {/* hidden md:block Version */}
-    <div className="hidden md:block  w-[100%] border h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+    <div className="  lg:block  w-[100%] border h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[31px] flex">
           <div className="w-[90%] text-center mt-40">
             <span className="text-gray-100 text-5xl font-medium font-Roboto">
@@ -97,7 +97,7 @@ export default function Unlock() {
       </div>
 
       {/* Mobile Version */}
-      <div className="lg:hidden w-full h-auto flex-col  justify-start items-center gap-[50px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+      <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-[50px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
         
         <div className="flex-col justify-start items-center gap-[100px] text-center mt-8">
           <span className="text-gray-100 text-3xl font-medium font-Roboto">
