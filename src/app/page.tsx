@@ -8,7 +8,7 @@ import Services from "@/components/sections/services";
 import Unlock from "@/components/sections/unlock";
 import Testimonial from "@/components/sections/testimonial";
 import Info from "@/components/sections/info";
-import '../app/page.css'
+
 
 
 

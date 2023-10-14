@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import "../../app/page.css";
+
 
 function HeroSection() {
   useEffect(() => {
@@ -31,7 +31,7 @@ function HeroSection() {
       <div className="justify-start items-end gap-[80px] flex flex-col md:flex-row">
         <div className="flex-col justify-start items-start gap-14 inline-flex ">
           <div className="flex-col justify-start items-start gap-8 flex">
-            <div className="w-full mx-auto text-center md:text-left custom-service-1">
+            <div className="w-full mx-auto text-center md:text-left md:items-center">
               <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
                 Your Complete <br />
               </span>
@@ -43,13 +43,13 @@ function HeroSection() {
                 Partner
               </span>
             </div>
-            <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left  custom-service-1">
+            <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left  flex md:items-center">
               Unleash Your Business Potential with Expert IT, Web, Mobile
               Development, Product Innovation, Social Media Branding, and
               Digital Marketing Strategies
             </div>
           </div>
-          <div className="justify-center items-center gap-[38px] inline-flex custom-service-1 flex-wrap">
+          <div className="justify-center items-center gap-[38px] inline-flex flex md:items-center flex-wrap">
             <div className="w-[180px] h-[60px] relative">
               <div className="w-[180px] h-[60px] left-0 top-0 absolute rounded-[14px] border-2 border-white">
                 <div className="p-5 absolute inset-0 flex items-center justify-center text-center text-white text-xl font-bold font-Roboto ">

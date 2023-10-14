@@ -3,7 +3,7 @@ import arrow from "../../../public/svgs/arrow.svg";
 
 export default function Testimonial() {
   return (
-    <div className="w-full items-center bg-zinc-950 ">
+    <div className="w-[100%] border items-center bg-zinc-950 ">
       <div className="flex items-center justify-center mt-20 mb-20">
         <span className="text-purple-800 text-5xl font-medium font-Roboto">
           What people{" "} 
@@ -28,29 +28,29 @@ export default function Testimonial() {
         <ellipse cx="162.643" cy="44" rx="44.3571" ry="44" fill="#784694" />
         <path
           fillRule="evenodd"
-          clip-rule="evenodd"
+          clipRule="evenodd"
           d="M173.486 45.3306H149.829H173.486Z"
           fill="#784694"
         />
         <path
           d="M173.486 45.3306H149.829"
           stroke="white"
-          stroke-width="2.95714"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.95714"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           fillRule="evenodd"
-          clip-rule="evenodd"
+          clipRule="evenodd"
           d="M163.943 35.9059C163.943 35.9059 173.485 41.0075 173.485 45.3285C173.485 49.6526 163.943 54.7559 163.943 54.7559"
           fill="#784694"
         />
         <path
           d="M163.943 35.9059C163.943 35.9059 173.485 41.0075 173.485 45.3285C173.485 49.6526 163.943 54.7559 163.943 54.7559"
           stroke="white"
-          stroke-width="2.95714"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.95714"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <ellipse
           cx="44.3572"
@@ -62,29 +62,29 @@ export default function Testimonial() {
         />
         <path
           fillRule="evenodd"
-          clip-rule="evenodd"
+          clipRule="evenodd"
           d="M33.5142 42.6694L57.1714 42.6694L33.5142 42.6694Z"
           fill="#F5EDF9"
         />
         <path
           d="M33.5142 42.6694L57.1714 42.6694"
           stroke="#D058B7"
-          stroke-width="2.95714"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.95714"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           fillRule="evenodd"
-          clip-rule="evenodd"
+          clipRule="evenodd"
           d="M43.0566 52.0941C43.0566 52.0941 33.5149 46.9925 33.5149 42.6715C33.5149 38.3474 43.0566 33.2441 43.0566 33.2441"
           fill="#F5EDF9"
         />
         <path
           d="M43.0566 52.0941C43.0566 52.0941 33.5149 46.9925 33.5149 42.6715C33.5149 38.3474 43.0566 33.2441 43.0566 33.2441"
           stroke="#D058B7"
-          stroke-width="2.95714"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.95714"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
       <div className="flex-col justify-cemter items-center gap-[71px] inline-flex ">
@@ -108,12 +108,12 @@ export default function Testimonial() {
                   <path
                     d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
                     stroke="#F5EDF9"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                   <path
                     d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
                     stroke="#F5EDF9"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                 </svg>
                 <div className="relative">
@@ -154,12 +154,12 @@ export default function Testimonial() {
                     <path
                       d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
                       stroke="#F5EDF9"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                     <path
                       d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
                       stroke="#F5EDF9"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                   <div className="w-[278.92px] h-[125.99px] relative">

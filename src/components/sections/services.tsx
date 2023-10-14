@@ -3,9 +3,9 @@ import Line from "../Line";
 
 export default function Services() {
   return (
-    <section className="bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row">
+    <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row border">
       <div className="w-full md:w-1/2 p-4 md:p-20">
-        <div className="w-full mb-20 leading-5 mt-48 custom-service-1">
+        <div className="w-full mb-20 leading-5 mt-48  md:items-center">
           <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
             Discover the  power of Astrix's comprehensive {" "}
           </span>
@@ -29,8 +29,8 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 md:p-10 font-text-custom">
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
+      <div className="w-full md:w-1/2 md:p-10 md:text-2xl md:text-center md:justify-center md:leading-1.6 md:mt-12">
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 text-transparent -webkit-text-stroke-0.5 text-white ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
@@ -42,7 +42,7 @@ export default function Services() {
           responsive, and captivating sites for lasting online success.
         </div>
         <Line/>
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 text-transparent -webkit-text-stroke-0.5 text-white ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
@@ -54,7 +54,7 @@ export default function Services() {
           responsive, and captivating sites for lasting online success.
         </div>
         <Line/>
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 text-transparent -webkit-text-stroke-0.5 text-white ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">

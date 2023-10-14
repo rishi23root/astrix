@@ -10,7 +10,7 @@ import svg7 from '../../../public/svgs/svg7.svg'
 
 function Brand() {
   return (
-    <div className=" custom-brand  flex items-center justify-between  h-auto bg-zinc-950 justify-center items-center inline-flex relative ">
+    <div className="  flex w-full relative items-center justify-center justify-items-center overflow-x-hidden border flex items-center justify-between  h-auto bg-zinc-950 justify-center items-center inline-flex relative ">
       <div className="  md:p-20 flex-col justify-start items-start gap-2.5 inline-flex">
         <div className=" justify-start items-center gap-2.5 inline-flex">
           <div className=" ml-[350px] text-center justify-center justify-center text-center  ">
@@ -32,17 +32,17 @@ function Brand() {
         </div>
         <div className="flex-col justify-start items-start gap-[26.67px] flex  ">
           <div className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg1} alt="svg" />
 
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
              
                 <img src={svg2} alt="svg" />
                 
               </div>
             
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
    
                 
                 <img src={svg3} alt="svg" />
@@ -50,71 +50,71 @@ function Brand() {
             
 
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
 
             <img src={svg4} alt="svg" />
               
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
 
               <img src={svg5} alt="svg" />
               
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg1} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg6} alt="svg" />
             </div>
             
           </div>
           <div className=" pr-8 justify-end items-center gap-[26.67px] inline-flex">
-            {/* <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            {/* <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
               <img src={svg1} alt="svg" />
             </div> */}
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg2} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg3} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg4} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg5} alt="svg" />
             </div>
             <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex">
             <img src={svg6} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg7} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg1} alt="svg" />
             </div>
           </div>
           <div className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg2} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg3} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
 
             <img src={svg4} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg5} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg6} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg7} alt="svg" />
             </div>
-            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex custom-brand-image">
+            <div className="px-8 py-[21.33px] rounded-[13.33px] border border-slate-400 flex-col justify-center items-center gap-4 inline-flex md:w-1/5 flex w-full relative items-center justify-center justify-items-center overflow-x-hidden-image">
             <img src={svg4} alt="svg" />
             </div>
             

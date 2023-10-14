@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Info() {
   return (
-    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-black text-center text-gray-100 mt-10">
+    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-black text-center text-gray-100 mt-10 border">
       <div>
         <span className="text-purple-800 text-3xl lg:text-5xl font-medium font-Roboto">Let’s </span>
         <span className="text-pink-500 text-3xl lg:text-5xl font-medium font-Roboto">build</span>
