@@ -16,18 +16,14 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pt-8">
       <Nav/>
-      {/* <HeroSection/>
+      <HeroSection/>
       <Brand/>
       <About/>
       <Services/>
-      <Unlock/> */}
+      <Unlock/>
       {/* <Testimonial/> */}
-      {/* <Info/>
-      <Footer/> */}
-      
-      
-      
-
+      <Info/>
+      <Footer/>
     </main>
   )
 }
