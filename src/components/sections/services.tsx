@@ -6,7 +6,7 @@ export default function Services() {
     <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row border">
       <div className="w-full md:w-1/2 p-4 md:p-20">
         <div className="w-full mb-20 leading-5 mt-48  md:items-center">
-          <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
+          <span className="text-purple-800 text-5xl font-bold font-Roboto  ">
             Discover the  power of Astrix{"`"}s comprehensive {" "}
           </span>
           <span className="text-pink-500 text-5xl font-bold font-Roboto text-font-custom">
@@ -38,7 +38,7 @@ export default function Services() {
           Website Design & Development
         </div>
 
-        <div className=" mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className=" lg:w-[80%] mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
@@ -50,7 +50,7 @@ export default function Services() {
           Website Design & Development
         </div>
 
-        <div className="  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className=" lg:w-[80%] mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
@@ -62,7 +62,7 @@ export default function Services() {
           Website Design & Development
         </div>
 
-        <div className="  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className="lg:w-[80%]  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
