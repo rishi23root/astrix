@@ -1,18 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import sm1 from '../../public/svgs/sm1.svg'
+import sm1 from "../../public/svgs/sm1.svg";
+// import send from './svgs/send.svg'
 
 function Footer() {
   return (
     <footer className="bg-zinc-950 w-full border">
       <div className="container mx-auto px-4 flex flex-col items-center relative mt-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 b">
-          <div className="mb-8 md:mb-0">
-            <img src="./logo.png" className="w-60 h-auto" alt="" />
+          <div className=" md:mb-0">
+            <img src="./logo2.png" className="w-80 h-auto" alt="" />
             <br />
-            <div className="flex-col justify-center items-center gap-[10px] flex text-center">
-              <div className="text-white text-lg font-normal font-['Roboto'] leading-normal ">
+            <div className="flex-col md:text-left md:justify-left md:items-left text-center justify-center items-center gap-[40px]  lg:ml-10 leading-[50px]">
+              <div className="text-white text-sm  font-normal font-Roboto leading-normal ">
                 Lorem Ipsum, 235 Simply,
                 <br />
                 printing, Pin 309 309
@@ -22,7 +23,7 @@ function Footer() {
                 printing, Pin 309 309
               </div>
               <div>
-                <span className="text-white text-[17px] font-normal font-['Roboto']">
+                <span className="text-white text-[17px] font-normal font-Roboto ">
                   info
                 </span>
                 <span className="text-white text-[17px] font-normal font-['Roboto'] underline">
@@ -32,151 +33,157 @@ function Footer() {
               <div className="text-white text-[17px] font-normal font-['Roboto']">
                 +91 85276 99439
               </div>
+              <div className=" lg:hidden text-white">
+                Information | Services | Company | Subscribe
+              </div>
             </div>
           </div>
-          <div className="mb-8 md:mb-0 text-center web">
-            <h3 className="text-lg font-bold mb-4 text-purple-700">
-              Quick Links
-            </h3>
-            <nav className="space-y-2">
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                Home
-              </Link>
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                About
-              </Link>
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                Events
-              </Link>
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                Team
-              </Link>
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                Contact
-              </Link>
-            </nav>
+          <div>
+            {/* web view */}
+
+            <div className="mb-8  md:mb-0 text-left ml-10 hidden md:block mt-10">
+              <h3 className="text-lg font-bold mb-4 text-purple-700 text-Roboto">
+                Information
+              </h3>
+              <nav className="space-y-2">
+                <Link
+                  href="#"
+                  className="text-white hover:text-purple-700 transition duration-300 block"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white hover:text-purple-700 transition duration-300 block"
+                >
+                  About Us
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white hover:text-purple-700 transition duration-300 block"
+                >
+                  Services
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white hover:text-purple-700 transition duration-300 block"
+                >
+                  Contact
+                </Link>
+              </nav>
+            </div>
           </div>
-          <div className="mb-8 md:mb-0 text-center web">
+
+          <div className="mb-8 md:mb-0 text-left hidden md:block mt-10">
             <h3 className="text-lg font-bold mb-4 text-purple-700">Services</h3>
             <nav className="space-y-2">
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Home
+                Website Development
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                About
+                Application Development
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Events
+                Product Development
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Team
+                Branding & Social Media
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Contact
+                Digital Marketing
+              </Link>
+              <Link
+                href="#"
+                className="text-white hover:text-purple-700 transition duration-300 block"
+              >
+                AI Automation
               </Link>
             </nav>
           </div>
-          <div className="mb-8 md:mb-0 text-center web">
+          <div className="mb-8 md:mb-0 text-left hidden md:block mt-10">
             <h3 className="text-lg font-bold mb-4 text-purple-700">Company</h3>
             <nav className="space-y-2">
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Home
+                Career
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                About
+                Terms of Use
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Events
+                Terms & Condition
               </Link>
               <Link
                 href="#"
                 className="text-white hover:text-purple-700 transition duration-300 block"
               >
-                Team
-              </Link>
-              <Link
-                href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
-              >
-                Contact
+                Privacy Policy
               </Link>
             </nav>
           </div>
-          <div className="text-center">
+          <div className="text-center hidden md:block mt-10">
             <h3 className="text-lg font-bold mb-4 text-purple-700">
               Subscribe
             </h3>
-            <div className="flex items-center border rounded-lg p-2">
+            <div className="flex items-center bg-white  rounded-[14px]  mt-10">
               <input
-                className="flex-1 w-20 h-10 bg-transparent border-white focus:outline-none"
+                className="flex-1 w-8 h-[40px] bg-white border-white rounded-tl-[14px] rounded-bl-[14px] text-center justify-center text-sm focus:outline-none"
                 type="text"
                 placeholder="Type your message..."
               />
-              <div className="w-14 h-12 bg-pink-500 rounded-tr-lg rounded-br-lg ml-2 cursor-pointer"></div>
+              <div className="w-10  h-[40px] bg-pink-400 rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer">
+                <img src="./svg/send.svg" alt="" />
+              </div>
             </div>
           </div>
-          <div className="flex items-center space-x-4 ">
+          <div className="flex items-center space-x-4 mt-10 ">
             <Link href="#" className="text-blue-500 hover:text-blue-700">
               <img src={sm1} alt="" />
-            </Link >
-            <Link href="#" className="text-green-500 hover:text-green-700">
-              i
-            </Link >
+            </Link>
+            <Link
+              href="#"
+              className="text-green-500 hover:text-green-700"
+            ></Link>
             <Link href="#" className="text-red-500 hover:text-red-700">
               t
-            </Link >
+            </Link>
             <Link href="#" className="text-purple-500 hover:text-purple-700">
               g
-            </Link >
+            </Link>
             <Link href="#" className="text-yellow-500 hover:text-yellow-700">
               d
-            </Link >
+            </Link>
             <Link href="#" className="text-orange-500 hover:text-orange-700">
               h
-            </Link >
+            </Link>
           </div>
         </div>
-        <div className=" text-center text-stone-900 lg:text-[300px] text-5xl font-medium font-Roboto mb-30">astrix</div>
-
+        <div className=" text-center text-stone-900 lg:text-[300px] text-5xl font-medium font-Roboto mb-30">
+          astrix
+        </div>
       </div>
     </footer>
   );
