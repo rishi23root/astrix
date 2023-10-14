@@ -27,7 +27,7 @@ export default function Testimonial() {
       >
         <ellipse cx="162.643" cy="44" rx="44.3571" ry="44" fill="#784694" />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           clip-rule="evenodd"
           d="M173.486 45.3306H149.829H173.486Z"
           fill="#784694"
@@ -40,7 +40,7 @@ export default function Testimonial() {
           stroke-linejoin="round"
         />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           clip-rule="evenodd"
           d="M163.943 35.9059C163.943 35.9059 173.485 41.0075 173.485 45.3285C173.485 49.6526 163.943 54.7559 163.943 54.7559"
           fill="#784694"
@@ -61,7 +61,7 @@ export default function Testimonial() {
           fill="#F5EDF9"
         />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           clip-rule="evenodd"
           d="M33.5142 42.6694L57.1714 42.6694L33.5142 42.6694Z"
           fill="#F5EDF9"
@@ -74,7 +74,7 @@ export default function Testimonial() {
           stroke-linejoin="round"
         />
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           clip-rule="evenodd"
           d="M43.0566 52.0941C43.0566 52.0941 33.5149 46.9925 33.5149 42.6715C33.5149 38.3474 43.0566 33.2441 43.0566 33.2441"
           fill="#F5EDF9"
