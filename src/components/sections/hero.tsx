@@ -27,7 +27,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <section className="items-center justify-between max-w-[100%] mt-10 border ">
+    <section className="items-center justify-between w-[100%] mt-10 border ">
       <div className="justify-start items-end gap-[80px] flex flex-col md:flex-row">
         <div className="flex-col justify-start items-start gap-14 inline-flex ">
           <div className="flex-col justify-start items-start gap-8 flex">
