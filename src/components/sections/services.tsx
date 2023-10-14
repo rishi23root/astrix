@@ -7,7 +7,7 @@ export default function Services() {
       <div className="w-full md:w-1/2 p-4 md:p-20">
         <div className="w-full mb-20 leading-5 mt-48  md:items-center">
           <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
-            Discover the  power of Astrix's comprehensive {" "}
+            Discover the  power of Astrix{"`"}s comprehensive {" "}
           </span>
           <span className="text-pink-500 text-5xl font-medium font-Roboto text-font-custom">
             services
@@ -17,7 +17,7 @@ export default function Services() {
           Our diverse range of offerings, from web design to digital marketing,
           are all designed to propel your brand forward. Each service is
           meticulously crafted, bringing innovation, creativity, and expertise
-          to the forefront. It's time to transform your digital presence with
+          to the forefront. It{"`"}s time to transform your digital presence with
           Astrix.
         </div>
         <div className="w-64 h-16 relative ">
