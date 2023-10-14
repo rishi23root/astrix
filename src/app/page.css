@@ -66,6 +66,11 @@
         transform: scale(1.1);
       
 }
+
+.custom{
+    text-align: center;
+    justify-content: center;
+}
       
 
 

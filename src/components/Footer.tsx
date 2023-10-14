@@ -5,7 +5,7 @@ import sm1 from '../../public/svgs/sm1.svg'
 
 function Footer() {
   return (
-    <footer className="bg-zinc-950 w-[100%]">
+    <footer className="bg-zinc-950 w-full">
       <div className="container mx-auto px-4 flex flex-col items-center relative mt-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 b">
           <div className="mb-8 md:mb-0">

@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section className="bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 p-4 md:p-20">
-        <div className="w-full mb-20 leading-5 mt-40 custom-service-1">
+        <div className="w-full mb-20 leading-5 mt-48 custom-service-1">
           <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
             Discover the  power of Astrix's comprehensive {" "}
           </span>
@@ -65,6 +65,7 @@ export default function Services() {
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
+        <Line/>
        
        
        

@@ -21,7 +21,7 @@ export default function Home() {
       <About/>
       <Services/>
       <Unlock/>
-      {/* <Testimonial/> */}
+      <Testimonial/>
       <Info/>
       <Footer/>
       
