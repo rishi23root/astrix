@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
+import { HamburgerOnMobile } from "./Hamburger";
+import NavLinks from "./navLinks";
 
 function Nav() {
   return (
@@ -15,22 +17,24 @@ function Nav() {
           priority
         />
         <div className="fss gap-12 text-md w-[50%] font-base hidden md:flex">
-          <Link href={"#about"} className="text-violet-50">
-            What we do
-          </Link>
-          <Link href={"#features"} className="text-violet-50">
-            Who are we
-          </Link>
-          <Link href={"#pricing"} className="text-violet-50">
-            Careers
-          </Link>
+          <NavLinks />
         </div>
-        <div className="text-xl font-bold font-Roboto cursor-pointer bg-gradient-pp text-transparent bg-clip-text">
-          CONSULT NOW
+        <div className="text-xl cursor-pointer ">
+          <div className="bg-gradient-pp text-transparent bg-clip-text hidden md:block">
+            CONSULT NOW
+          </div>
+          <div className="w-fit md:hidden fc ">
+            <Suspense>
+              <HamburgerOnMobile />
+            </Suspense>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+
+
 
 export default Nav;
