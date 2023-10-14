@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Info() {
   return (
-    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-black text-center text-gray-100 mt-40">
+    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-black text-center text-gray-100 mt-10">
       <div>
-        <span className="text-purple-800 text-5xl font-medium font-Roboto">Let’s </span>
-        <span className="text-pink-500 text-5xl font-medium font-Roboto">build</span>
-        <span className="text-purple-800 text-5xl font-medium font-Roboto"> your business together</span>
+        <span className="text-purple-800 text-3xl lg:text-5xl font-medium font-Roboto">Let’s </span>
+        <span className="text-pink-500 text-3xl lg:text-5xl font-medium font-Roboto">build</span>
+        <span className="text-purple-800 text-3xl lg:text-5xl font-medium font-Roboto"> your business together</span>
       </div>
-      <div className="text-4xl font-bold font-Roboto mt-10">info@astrix.co.in</div>
+      <div className="text-3xl font-bold font-Roboto mt-10">info@astrix.co.in</div>
       <div className="w-52 h-52 mt-8 relative">
         <div className="w-52 h-52 left-0 top-0 absolute bg-pink-500 rounded-full" />
         <div className="w-52 h-52 left-0 top-0 absolute">

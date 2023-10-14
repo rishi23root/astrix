@@ -5,11 +5,11 @@ export default function Services() {
   return (
     <section className="bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 p-4 md:p-20">
-        <div className="w-full mb-20 leading-5 mt-40">
-          <span className="text-purple-800 text-xl text-3xl lg:text-5xl font-medium font-Roboto text-font-custom">
+        <div className="w-full mb-20 leading-5 mt-40 custom-service-1">
+          <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
             Discover the  power of Astrix's comprehensive {" "}
           </span>
-          <span className="text-pink-500 text-xl md:text-3xl lg:text-5xl font-medium font-Roboto text-font-custom">
+          <span className="text-pink-500 text-5xl font-medium font-Roboto text-font-custom">
             services
           </span>
         </div>
@@ -21,8 +21,8 @@ export default function Services() {
           Astrix.
         </div>
         <div className="w-64 h-16 relative ">
-          <div className="w-64 h-16 left-0 top-0 absolute rounded-3xl border-2 border-pink-500" />
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-64 h-16  absolute rounded-3xl border-2 border-pink-500" />
+          <div className="absolute inset-0 flex text-center items-center justify-center">
             <span className="text-pink-500 text-lg md:text-xl font-bold font-Roboto">
               Know More
             </span>

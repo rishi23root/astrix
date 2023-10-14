@@ -18,9 +18,10 @@ export default function Home() {
       <Nav/>
       <HeroSection/>
       <Brand/>
+      <About/>
       <Services/>
       <Unlock/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <Info/>
       <Footer/>
       
