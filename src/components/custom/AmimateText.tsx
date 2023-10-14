@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
@@ -15,7 +15,7 @@ export default function AmimateText({
 
   useEffect(() => {
     let iteration = 0;
-    let interval: NodeJS.Timer;
+    let interval:any;
     const randomstring = () => {
       return text.split("").map((letter, index) => {
         if (index < iteration) {

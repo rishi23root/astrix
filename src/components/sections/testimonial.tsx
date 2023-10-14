@@ -6,7 +6,7 @@ export default function Testimonial() {
     <div className="w-[100%] border items-center bg-zinc-950 ">
       <div className="flex items-center justify-center mt-20 mb-20">
         <span className="text-purple-800 text-5xl font-medium font-Roboto">
-          What people{" "} 
+          What people{" "}
         </span>
         <span className="text-pink-500 text-5xl font-medium font-Roboto">
           say
@@ -94,9 +94,9 @@ export default function Testimonial() {
             <div className=" justify-start items-start gap-5 inline-flex">
               <div className="w-[119.69px] h-[0px] origin-top-left ml-20 rotate-90 border-4 border-pink-500"></div>
               <div className=" flex flex-col text-white text-xl font-normal font-Roboto text-justify">
-                "But I must explain to you how all this mistaken idea of
+                {'"'}But I must explain to you how all this mistaken idea of
                 denouncing pleasure and praising pain was born and I will give
-                you a complete."
+                you a complete.{'"'}
                 <br />
                 <svg
                   width="400"
@@ -141,9 +141,9 @@ export default function Testimonial() {
               <div className="w-[100px] justify-start items-start gap-20 inline-flex">
                 <div className="w-[119.69px] h-[0px] ml-40 origin-top-left rotate-90 border-4 border-pink-500"></div>
                 <div className="flex flex-col text-white text-xl font-normal font-Roboto custom-testimonial ">
-                  "But I must explain to you how all this mistaken idea of
+                  {'"'}But I must explain to you how all this mistaken idea of
                   denouncing pleasure and praising pain was born and I will give
-                  you a complete." <br />
+                  you a complete.{'"'} <br />
                   <svg
                     width="500"
                     height="33"

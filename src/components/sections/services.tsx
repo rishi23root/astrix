@@ -6,8 +6,8 @@ export default function Services() {
     <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row border">
       <div className="w-full md:w-1/2 p-4 md:p-20">
         <div className="w-full mb-20 leading-5 mt-48  md:items-center">
-          <span className="text-purple-800 text-5xl font-bold font-Roboto flex-col md:text-center md:justify-left md:items-left text-center justify-center items-center gap-[40px]  leading-[50px]  ">
-            Discover the  power of Astrix's comprehensive {" "}
+          <span className="text-purple-800 text-5xl font-medium font-Roboto  ">
+            Discover the  power of Astrix{"`"}s comprehensive {" "}
           </span>
           <span className="text-pink-500 text-5xl font-bold font-Roboto text-font-custom">
             services
@@ -17,7 +17,7 @@ export default function Services() {
           Our diverse range of offerings, from web design to digital marketing,
           are all designed to propel your brand forward. Each service is
           meticulously crafted, bringing innovation, creativity, and expertise
-          to the forefront. It's time to transform your digital presence with
+          to the forefront. It{"`"}s time to transform your digital presence with
           Astrix.
         </div>
         <div className="w-64 h-16 relative flex items-center justify-center">
