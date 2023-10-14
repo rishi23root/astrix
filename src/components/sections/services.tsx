@@ -5,11 +5,11 @@ export default function Services() {
   return (
     <section className="bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 p-4 md:p-20">
-        <div className="w-full mb-20 leading-5">
-          <span className="text-purple-800 text-xl md:text-3xl lg:text-5xl font-medium font-Roboto ">
-            Discover the <br /> power of Astrix's <br />comprehensive  <br />
+        <div className="w-full mb-20 leading-5 mt-40">
+          <span className="text-purple-800 text-xl text-3xl lg:text-5xl font-medium font-Roboto text-font-custom">
+            Discover the  power of Astrix's comprehensive {" "}
           </span>
-          <span className="text-pink-500 text-xl md:text-3xl lg:text-5xl font-medium font-Roboto">
+          <span className="text-pink-500 text-xl md:text-3xl lg:text-5xl font-medium font-Roboto text-font-custom">
             services
           </span>
         </div>
@@ -29,8 +29,8 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 md:p-10">
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 ">
+      <div className="w-full md:w-1/2 md:p-10 font-text-custom">
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
@@ -41,8 +41,8 @@ export default function Services() {
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
-        <hr  className="m-20"/>
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20">
+        <Line/>
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
@@ -53,8 +53,8 @@ export default function Services() {
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
-        <hr  className="m-20"/>
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20">
+        <Line/>
+        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20 num-border ">
           01
         </div>
         <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
@@ -65,20 +65,10 @@ export default function Services() {
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
-        <hr  className="m-20"/>
-        <div className="text-5xl md:text-6xl lg:text-7xl font-medium font-Roboto text-right mr-20">
-          01
-        </div>
-        <div className="text-gray-100 text-3xl font-semibold font-Roboto text-left ">
-          Website Design & Development
-        </div>
-
-        <div className="w-[70%] mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
-          Elevate your brand with our web design and development. Seamless,
-          responsive, and captivating sites for lasting online success.
-        </div>
+       
+       
+       
       </div>
-      <Line />
     </section>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Info() {
   return (
-    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-zinc-950 text-center text-gray-100 mt-40">
+    <div className="w-[100%] flex flex-col justify-center items-center h-screen bg-black text-center text-gray-100 mt-40">
       <div>
         <span className="text-purple-800 text-5xl font-medium font-Roboto">Let’s </span>
         <span className="text-pink-500 text-5xl font-medium font-Roboto">build</span>
@@ -12,11 +12,11 @@ export default function Info() {
       <div className="w-52 h-52 mt-8 relative">
         <div className="w-52 h-52 left-0 top-0 absolute bg-pink-500 rounded-full" />
         <div className="w-52 h-52 left-0 top-0 absolute">
-          <div className="left-0 top-0 absolute origin-top-left rotate-0 text-gray-100 text-2xl font-light font-Roboto">c
+          <div className="left-0 top-0 absolute origin-top-left rotate-0 text-gray-100 text-2xl font-light font-Roboto">
           </div>
  
-        <div className="w-[251.50px] h-[251.20px] left-0 top-0 absolute">
-          <div className="left-[117.43px] top-[251.20px] absolute origin-top-left rotate-[-173.24deg] text-gray-100 text-2xl font-light font-Roboto">c</div>
+        <div className="w-[200px] h-[200px] left-[-10] top-0 absolute">
+          <div className="left-[120.43px] top-[251.20px] absolute origin-top-left rotate-[-173.24deg] text-gray-100 text-2xl font-light font-Roboto">c</div>
           <div className="left-[96.25px] top-[247.99px] absolute origin-top-left rotate-[-163.24deg] text-gray-100 text-2xl font-light font-Roboto">o</div>
           <div className="left-[74.92px] top-[240.77px] absolute origin-top-left rotate-[-152.97deg] text-gray-100 text-2xl font-light font-Roboto">n</div>
           <div className="left-[55.76px] top-[230.07px] absolute origin-top-left rotate-[-144.32deg] text-gray-100 text-2xl font-light font-Roboto">t</div>
@@ -59,6 +59,7 @@ export default function Info() {
           <div className="left-[152.28px] top-[248.52px] absolute origin-top-left rotate-[169.18deg] text-gray-100 text-2xl font-light font-Roboto">.</div>
           <div className="left-[139.42px] top-[250.60px] absolute origin-top-left rotate-[175.13deg] text-gray-100 text-2xl font-light font-Roboto"> </div>
         </div>
+        
       </div>
     </div>
   </div>

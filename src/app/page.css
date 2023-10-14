@@ -1,40 +1,46 @@
-.container {
+@media only screen and (max-width: 600px) {
+    .custom-service-1{
+        
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    .custom-service-2{
+       width: 80%;
+       text-align: center;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+    .text-font-custom{
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .custom-brand{
+        width: 20%;
+    }
+
+}
+
+.custom-brand{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    position: relative;
     align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-  .content {
-    background-color: #1a1a1a;
-    border-radius: 140px 140px 0 0;
-    padding: 20px;
-  }
-  
-  /* Add media queries for responsiveness */
-  @media screen and (max-width: 768px) {
-    .content {
-      padding: 10px;
-    }
-  
-    .text-responsive {
-      font-size: 24px;
-    }
-  }
-  
-  /* Define other classes as needed for different elements */
-  .text-purple {
-    color: #8a2be2;
-    font-size: 36px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .text-gray {
-    color: #ccc;
-    font-size: 24px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-  }
+    justify-content: center;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+.custom-bg{
+    background-image: url('../../public/unlock.png');
+    background-position: unset;
+    background-repeat: no-repeat;
+}
+
+.num-border{
+    color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}

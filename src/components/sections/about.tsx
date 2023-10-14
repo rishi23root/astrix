@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="w-[100%] relative">
-      <div className="w-[1920px] h-[1431px] left-[142px] top-[39px] absolute bg-zinc-950 rounded-bl-[140px] rounded-br-[140px]" />
+      <div className="left-[142px] top-[39px] absolute bg-zinc-950 rounded-bl-[140px] rounded-br-[140px]" />
       <div className="w-[1766px] h-[1334px] left-[219px] top-[42px] absolute bg-white rounded-tl-[38px] rounded-tr-[38px] rounded-bl-[120px] rounded-br-[120px]" />
       <div className="h-[1324px] left-[219px] top-0 absolute flex-col justify-start items-center inline-flex">
         <div className="w-[2205px] h-[1042px] bg-purple-800 rounded-full" />

@@ -1,49 +1,62 @@
 import React from "react";
+import '../../app/page.css'
 
 function HeroSection() {
   return (
-    <section className="items-center justify-between max-w-[100%]">
-    <div className="justify-start items-end gap-[93px] flex">
-      <div className="flex-col justify-start items-start gap-14 inline-flex">
-        <div className="flex-col justify-start items-start gap-8 flex">
-          <div className="w-full md:w-[674px] mx-auto text-center"> 
-            <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
-              Your Complete <br />
-            </span>
-            <span className="text-pink-500 text-5xl font-bold font-Roboto tracking-wider">
-              Digital Solutions
-              <br />
-            </span>
-            <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
-              Partner
-            </span>
-          </div>
-          <div className="w-full md:w-[697px] text-white text-[32px] font-normal font-Roboto leading-[47.42px] mx-auto text-center">
-            Unleash Your Business Potential with Expert IT, Web, Mobile
-            Development, Product Innovation, Social Media Branding, and Digital
-            Marketing Strategies
-          </div>
+<section className="items-center justify-between max-w-[100%]">
+  <div className="justify-start items-end gap-[80px] flex flex-col md:flex-row">
+    <div className="flex-col justify-start items-start gap-14 inline-flex p-10">
+      <div className="flex-col justify-start items-start gap-8 flex">
+        <div className="w-full mx-auto text-center md:text-left custom-service-1">
+          <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
+            Your Complete <br />
+          </span>
+          <span className="text-pink-500 text-5xl font-bold font-Roboto tracking-wider">
+            Digital Solutions
+            <br />
+          </span>
+          <span className="text-white text-5xl font-bold font-Roboto tracking-wider">
+            Partner
+          </span>
         </div>
-        <div className="justify-start items-center gap-[38px] inline-flex">
-          <div className="w-[251px] h-[88px] relative">
-            <div className="w-[251px] h-[88px] left-0 top-0 absolute rounded-[14px] border-2 border-white" />
-            <div className="left-[34px] top-[25px] absolute text-center text-white text-[32px] font-bold font-Roboto">
+        <div className="w-full md:w-[450px] text-white text-xl font-normal font-Roboto mx-auto text-center md:text-left text-justify custom-service-1"> 
+          Unleash Your Business Potential with Expert IT, Web, Mobile
+          Development, Product Innovation, Social Media Branding, and
+          Digital Marketing Strategies
+        </div>
+      </div>
+      <div className="justify-start items-center gap-[38px] inline-flex custom-service-1">
+        <div className="w-[180px] h-[60px] relative">
+          <div className="w-[180px] h-[60px] left-0 top-0 absolute rounded-[14px] border-2 border-white">
+            <div className="p-5 absolute inset-0 flex items-center justify-center text-center text-white text-xl font-bold font-Roboto ">
               Consult Now
             </div>
           </div>
-          <div className="text-center text-pink-500 text-[32px] font-bold font-Roboto">
-            Download Brochure
-          </div>
+        </div>
+        <div className="text-center text-pink-500 text-xl font-bold font-Roboto">
+          Download Brochure
         </div>
       </div>
-      <div className="justify-start items-start gap-2.5 md:flex">
-        <div className="w-[500px] h-[630px] relative">
-          <div className="w-[500px] h-[630px] left-0 top-0 absolute bg-stone-500" />
-          {/* <img
-            className="w-[1280px] h-[876.91px] left-[-44px] top-[-130px] absolute"
-            src="https://via.placeholder.com/1280x877"
-          /> */}
-          {/* <div className="w-[1191px] h-[793px] left-[-440px] top-[-21px] absolute" />
+    </div>
+    <div className="justify-start items-start gap-2.5 md:flex">
+      <div className="w-full md:w-[500px] h-[70vh] relative">
+        <div className="w-full md:w-[500px] h-[70vh] left-0 top-0 absolute bg-stone-500" />
+        <img
+          className="absolute w-full bottom-0"  
+          src="https://via.placeholder.com/1280x877"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+  );
+}
+
+export default HeroSection;
+
+
+        {/* <div className="w-[1191px] h-[793px] left-[-440px] top-[-21px] absolute" />
           <div className="w-[946px] left-[1030px] top-[772px] absolute text-center">
             <span className="text-pink-500 text-[47px] font-medium font-Roboto leading-[74.67px]">
               Trusted
@@ -54,8 +67,8 @@ function HeroSection() {
               Excellence
             </span>
           </div> */}
-        </div>
-        {/* <div className="justify-start items-center gap-[19px] flex">
+          {/* </div> */}
+          {/* <div className="justify-start items-center gap-[19px] flex">
           <div className="w-[203.56px] h-[84px] relative">
             <div className="w-[69.56px] h-20 left-[134px] top-0 absolute">
               <img
@@ -123,11 +136,3 @@ function HeroSection() {
             </span>
           </div>
         </div> */}
-      </div>
-    </div>
-    </section>
-
-  );
-}
-
-export default HeroSection;

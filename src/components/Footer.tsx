@@ -5,18 +5,33 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-zinc-950">
-      <div className="container mx-auto px-4 flex flex-col items-center relative z-10 ">
+      <div className="container mx-auto px-4 flex flex-col items-center relative z-10 mt-10 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-center mb-10 b">
           <div className="mb-8 md:mb-0">
-            {/* <h2 className="text-5xl text-purple-700 font-bold mb-2">
-                  Pratyaksh
-                </h2> */}
-            <img src="" className="w-60 h-auto ml-10" alt="" />
+            <img src="./logo.png" className="w-60 h-auto ml-10" alt="" />
             <br />
-            <p className="text-white leading-relaxed">
-              Empowering You in Every Language <br /> Pratyaksh Your Legal
-              Document Solution
-            </p>
+            <div className="flex-col justify-center items-center gap-[37px] flex text-center">
+              <div className="text-white text-lg font-normal font-['Roboto'] leading-normal ">
+                Lorem Ipsum, 235 Simply,
+                <br />
+                printing, Pin 309 309
+                <br />
+                Lorem Ipsum, 235 Simply,
+                <br />
+                printing, Pin 309 309
+              </div>
+              <div>
+                <span className="text-white text-[17px] font-normal font-['Roboto']">
+                  info
+                </span>
+                <span className="text-white text-[17px] font-normal font-['Roboto'] underline">
+                  @astrix.co.in
+                </span>
+              </div>
+              <div className="text-white text-[17px] font-normal font-['Roboto']">
+                +91 85276 99439
+              </div>
+            </div>
           </div>
           <div className="mb-8 md:mb-0 text-center">
             <h3 className="text-lg font-bold mb-4 text-purple-700">
@@ -131,7 +146,7 @@ function Footer() {
             </h3>
             <div className="flex items-center border rounded-lg p-2">
               <input
-                className="flex-1 bg-transparent border-white focus:outline-none"
+                className="flex-1 w-20 h-10 bg-transparent border-white focus:outline-none"
                 type="text"
                 placeholder="Type your message..."
               />
@@ -143,23 +158,24 @@ function Footer() {
               f
             </a>
             <a href="#" className="text-green-500 hover:text-green-700">
-          i
-            
+              i
             </a>
             <a href="#" className="text-red-500 hover:text-red-700">
-             t
+              t
             </a>
             <a href="#" className="text-purple-500 hover:text-purple-700">
-           g
+              g
             </a>
             <a href="#" className="text-yellow-500 hover:text-yellow-700">
-            d
+              d
             </a>
             <a href="#" className="text-orange-500 hover:text-orange-700">
               h
             </a>
           </div>
         </div>
+        <div className="text-center text-stone-900 text-[500px] font-medium font-Roboto b-0">astrix</div>
+
       </div>
     </footer>
   );
