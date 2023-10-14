@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import "../../app/page.css";
+
 import Image from "next/image";
 
 function HeroSection() {
