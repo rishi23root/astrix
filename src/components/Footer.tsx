@@ -22,7 +22,7 @@ function Footer() {
             />
             <br />
             <div className="flex-col md:text-left md:justify-left md:items-left text-center justify-center items-center gap-[40px]  lg:ml-10 leading-[50px]">
-              <div className="text-white text-sm  font-normal font-Roboto leading-normal ">
+              <div className="text-white  text-sm font-normal font-Roboto leading-normal ">
                 Lorem Ipsum, 235 Simply,
                 <br />
                 printing, Pin 309 309

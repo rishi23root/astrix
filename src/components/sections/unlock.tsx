@@ -28,7 +28,7 @@ export default function Unlock() {
           </div>
           
           <div className="mt-20 justify-start items-center gap-20 inline-flex p-10">
-            <div className="flex-col justify-start items-start gap-10 inline-flex w-1/3">
+            <div className="flex-col justify-start items-start gap-20 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex flex flex-wrap justify-center">
                 <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Data Analytics
@@ -39,7 +39,7 @@ export default function Unlock() {
                 </div>
               </div>
               <div className="flex-col justify-start items-center gap-5 flex">
-                <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
+                <div className="text-center text-gray-100 text-2xl font-semibold font-Roboto">
                   Process Automation
                 </div>
                 <div className="text-center text-gray-100 text-sm font-light font-Roboto">
@@ -51,7 +51,7 @@ export default function Unlock() {
             {/* <VLine1/> */}
             
 
-            <div className="flex-col justify-start items-center gap-10 inline-flex w-1/3">
+            <div className="flex-col justify-start items-center gap-20 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
                 <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Predictive Analytics
@@ -72,7 +72,7 @@ export default function Unlock() {
               {/* <VLine2 /> */}
             </div>
 
-            <div className="flex-col justify-start items-start gap-[60px] inline-flex w-1/3">
+            <div className="flex-col justify-start items-start gap-20 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
                 <div className="  text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Chatbots and Virtual Assistants:{" "}
@@ -137,14 +137,14 @@ export default function Unlock() {
 
         <div className="mt-10"></div>
         
-          <div className="text-center text-gray-100 text-3xl font-semibold font-Roboto">
+          <div className="text-center text-gray-100 w-48 text-3xl font-semibold font-Roboto">
             Chatbots and Virtual Assistants:
           </div>
           <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
             Enhance customer support and engagement with intelligent chatbots.
           </div>
           <div className="mt-10"></div>
-          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
+          <div className=" text-center text-gray-100 w-48 text-3xl font-semibold font-Roboto">
             AI-Powered Marketing
           </div>
           <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
@@ -154,7 +154,7 @@ export default function Unlock() {
         <div className="mt-10"></div>
 
         
-          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
+          <div className=" text-center text-gray-100 w-48 text-3xl font-semibold font-Roboto">
             Predictive Analytics
           </div>
           <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
