@@ -8,6 +8,7 @@ import svg6 from "../../../public/svgs/brands/svg6.svg";
 import svg7 from "../../../public/svgs/brands/svg7.svg";
 import svg8 from "../../../public/svgs/brands/svg8.svg";
 import Image from "next/image";
+import Marquee from "@/components/custom/InfiniteScrolling";
 
 function Brand() {
   return (
@@ -17,36 +18,26 @@ function Brand() {
       </div>
       {/* all scrolling animations */}
       <div className="overflow-x-hidden w-full mt-12">
-        <div className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-          <Image src={svg1} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border-2 p-2 rounded-xl" />
-        </div>
-        <div className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-          <Image src={svg1} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border-2 p-2 rounded-xl" />
-        </div>
-        <div className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-          <Image src={svg1} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border-2 p-2 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border-2 p-2 rounded-xl" />
-        </div>
+        <Marquee className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
+          <Image src={svg1} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg2} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg3} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg4} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg5} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg6} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg7} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg8} alt="svg" className="border p-2 rounded-xl" />
+        </Marquee>
+        <Marquee className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
+          <Image src={svg1} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg2} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg3} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg4} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg5} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg6} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg7} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg8} alt="svg" className="border p-2 rounded-xl" />
+        </Marquee>
       </div>
     </div>
   );
