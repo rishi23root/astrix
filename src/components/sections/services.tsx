@@ -6,10 +6,10 @@ export default function Services() {
     <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row ">
       <div className="w-full md:w-1/2 p-4 md:p-20">
         <div className="w-full mb-20 leading-8 mt-48 lg:text-left text-center">
-          <span className="text-purple-800 lg:text-5xl text-[40px] md:text-center font-bold font-Roboto">
+          <span className="text-purple-800 md:text-5xl text-4xl   md:text-center font-bold font-Roboto">
             Discover the power of Astrix{"`"}s comprehensive <br />
           </span>
-          <span className="text-pink-500 text-5xl font-bold font-Roboto text-font-custom">
+          <span className="text-pink-500 text-4xl md:text-5xl sm:text-7xl font-bold font-Roboto text-font-custom">
             services
           </span>
         </div>
@@ -44,7 +44,7 @@ export default function Services() {
           Website Design & Development
         </div>
 
-        <div className=" lg:w-[80%] mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className=" lg:w-3/4 mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Elevate your brand with our web design and development. Seamless,
           responsive, and captivating sites for lasting online success.
         </div>
@@ -64,7 +64,7 @@ export default function Services() {
           Mobile App Development
         </div>
 
-        <div className=" lg:w-[80%] mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className="  lg:w-3/4 mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Transform your app idea into reality. Expert app development for
           outstanding user experiences, performance, and market dominance
         </div>
@@ -83,7 +83,7 @@ export default function Services() {
           Product Development
         </div>
 
-        <div className="lg:w-[80%]  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
+        <div className=" lg:w-3/4  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Innovate with us. Product development that disrupts markets, sparks
           growth, and sets industry standards. Let's craft your success story."
         </div>

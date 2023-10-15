@@ -22,7 +22,7 @@ function About() {
                 </span>
               </div>
               <div className="text-center text-neutral-600 text-xl lg:text-3xl font-extrabold font-Roboto lg:leading-[57.50px] mt-20">
-                At Astrix, we're more than just a digital agency; <br />
+                At Astrix, we{"'"}re more than just a digital agency; <br />
                 we're architects of transformation 🚀
               </div>
               <img className="mb-20" src="/svgs/curve.svg" alt="" />

@@ -5,59 +5,59 @@ import VLine2 from "../v-line2";
 export default function Unlock() {
   return (
     <>
-
-    {/* mobile Version */}
-    <div className=" hidden lg:inline-flex  w-[100%]  h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+      {/* web Version */}
+      <div className=" hidden lg:inline-flex  w-[100%]  h-auto flex-col justify-start items-center inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[31px] flex">
           <div className="w-[90%] text-center mt-40">
-            <span className="text-gray-100 text-5xl md:text-3xl font-medium font-Roboto">
+            <span className="text-gray-100 text-5xl  font-medium font-Roboto">
               Unlock the future of efficiency with our <br />
             </span>
-            <span className="text-pink-500 text-5xl md:text-3xl font-medium font-Roboto">
+            <span className="text-pink-500 text-5xl font-medium font-Roboto">
               {" "}
               AI Automation
             </span>
-            <span className="text-gray-100 text-5xl md:text-3xl font-medium font-Roboto">
+            <span className="text-gray-100 text-5xl font-medium font-Roboto">
               {" "}
               services
             </span>
           </div>
-          <div className="w-[60%] text-center text-gray-100 md:text-sm text-xl font-light font-Roboto">
+          <div className="w-2/3 text-center text-gray-100 text-xl font-light font-Roboto">
             Our AI Automation services harness the power of artificial
             intelligence to automate repetitive tasks, make data-driven
             decisions, and optimize workflows across your organization.
           </div>
 
-          <div className=" h-[515px] justify-start items-center gap-[10px] inline-flex ">
-            <div className="flex-col justify-start items-start gap-[60px] inline-flex ">
-              <div className="flex-col justify-start items-center gap-5 flex flex flex-wrap justify-center ">
-                <div className="w-[350px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className="mt-20 justify-start items-center gap-20 inline-flex p-10">
+            <div className="flex-col justify-start items-start gap-10 inline-flex w-1/3">
+              <div className="flex-col justify-start items-center gap-5 flex flex flex-wrap justify-center">
+                <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Data Analytics
                 </div>
-                <div className="w-[300px] text-justify text-gray-100 text-sm font-light font-Roboto">
+                <div className="text-center text-gray-100 text-sm font-light font-Roboto">
                   Extract valuable insights from your data to drive data-driven
                   decision-making.
                 </div>
               </div>
               <div className="flex-col justify-start items-center gap-5 flex">
-                <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+                <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Process Automation
                 </div>
-                <div className="w-[250px] text-justify text-gray-100 text-sm font-light font-Roboto">
+                <div className="text-center text-gray-100 text-sm font-light font-Roboto">
                   Streamline workflows, reduce manual interventions, and boost
                   operational efficiency.
                 </div>
               </div>
             </div>
-           
-            <VLine1 />
-         
-            <div className="flex-col justify-start items-center gap-[50px] inline-flex">
+            <div className="">
+              {/* <VLine1 /> */}
+            </div>
+
+            <div className="flex-col justify-start items-center gap-10 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
-                <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+                <div className="text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Predictive Analytics
                 </div>
-                <div className="w-[250px] text-justify text-gray-100 text-sm font-light font-Roboto">
+                <div className="text-center text-gray-100 text-sm font-light font-Roboto">
                   Anticipate trends and behaviors for proactive decision-making.
                   Stay ahead in the digital age with AI Automations. Embrace the
                   future of automation today.
@@ -70,24 +70,24 @@ export default function Unlock() {
                   </div>
                 </div>
               </div>
-
-              <VLine2 />
+              {/* <VLine2 /> */}
             </div>
-            <div className="flex-col justify-start items-start gap-[60px] inline-flex">
+
+            <div className="flex-col justify-start items-start gap-[60px] inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
-                <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+                <div className="  text-center text-gray-100 text-xl font-semibold font-Roboto">
                   Chatbots and Virtual Assistants:{" "}
                 </div>
-                <div className="w-[250px] text-gray-100 text-sm font-light font-Roboto text-justify">
+                <div className=" text-gray-100 text-sm font-light font-Roboto text-center">
                   Enhance customer support and engagement with intelligent
                   chatbots.
                 </div>
               </div>
               <div className="flex-col justify-start items-center gap-5 flex">
-                <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+                <div className="  text-center text-gray-100 text-xl font-semibold font-Roboto">
                   AI-Powered Marketing
                 </div>
-                <div className="w-[250px] text-gray-100 text-sm font-light font-Roboto text-justify">
+                <div className=" text-gray-100 text-sm font-light font-Roboto text-center">
                   Optimize marketing campaigns with AI-driven strategies.
                 </div>
               </div>
@@ -97,68 +97,64 @@ export default function Unlock() {
       </div>
 
       {/* Mobile Version */}
-      <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-[50px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
-        
+      <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-10 inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[100px] text-center mt-8">
           <span className="text-gray-100 text-3xl font-medium font-Roboto">
             Unlock the future of efficiency with our <br />
           </span>
-          <span className="text-pink-500 text-4xl font-medium font-Roboto">
-            AI Automation
+          <span className="text-pink-500 text-3xl font-medium font-Roboto">
+            AI Automation <br />
           </span>
-          <span className="text-gray-100 text-4xl font-medium font-Roboto">
+          <span className="text-gray-100 text-3xl font-medium font-Roboto">
             {" "}
             services
           </span>
-          <div className="text-gray-100 text-xl font-light font-Roboto mt-10">
+          <div className="text-gray-100 text-xl font-light font-Roboto mt-10  text-center p-5">
             Our AI Automation services harness the power of artificial
             intelligence to automate repetitive tasks, make data-driven
             decisions, and optimize workflows across your organization.
           </div>
         </div>
 
-        
         <div className="flex-col justify-start items-center gap-5 inline-flex">
-          <div className="w-[350px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Data Analytics
           </div>
-          <div className="w-[300px] text-justify text-gray-100 text-sm font-light font-Roboto">
+          <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
             Extract valuable insights from your data to drive data-driven
             decision-making.
           </div>
 
-          <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className="text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Process Automation
           </div>
-          <div className="w-[250px] text-justify text-gray-100 text-sm font-light font-Roboto">
+          <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
             Streamline workflows, reduce manual interventions, and boost
             operational efficiency.
           </div>
         </div>
 
-       
         <div className="flex-col justify-start items-center gap-5 inline-flex">
-          <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className="text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Chatbots and Virtual Assistants:
           </div>
-          <div className="w-[250px] text-gray-100 text-sm font-light font-Roboto text-justify">
+          <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
             Enhance customer support and engagement with intelligent chatbots.
           </div>
 
-          <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
             AI-Powered Marketing
           </div>
-          <div className="w-[250px] text-gray-100 text-sm font-light font-Roboto text-justify">
+          <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
             Optimize marketing campaigns with AI-driven strategies.
           </div>
         </div>
 
-        
         <div className="flex-col justify-start items-center gap-5 inline-flex">
-          <div className="w-[300px] text-center text-gray-100 text-xl font-semibold font-Roboto">
+          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Predictive Analytics
           </div>
-          <div className="w-[250px] text-justify text-gray-100 text-sm font-light font-Roboto">
+          <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
             Anticipate trends and behaviors for proactive decision-making. Stay
             ahead in the digital age with AI Automations. Embrace the future of
             automation today.
@@ -171,9 +167,6 @@ export default function Unlock() {
             </div>
           </div>
         </div>
-
-        
-        
       </div>
     </>
   );

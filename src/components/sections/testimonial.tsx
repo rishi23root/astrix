@@ -3,9 +3,9 @@ import arrow from "../../../public/svgs/arrow.svg";
 
 export default function Testimonial() {
   return (
-    <div className="w-[100%] border  bg-zinc-950 ">
+    <div className="w-full   bg-zinc-950 ">
       <div className=" items-center text-center justify-center mt-20 mb-20">
-        <span className="text-purple-800 text-5xl font-medium font-Roboto">
+        <span className="text-purple-800 text-5xl md:text-7xl font-medium font-Roboto">
           What people{" "}
         </span>
         <span className=" text-pink-500 text-5xl font-medium font-Roboto">
@@ -88,7 +88,7 @@ export default function Testimonial() {
         </svg>
       </div>
       
-        <div className="gap-40  flex flex-row p-20 mb-40">
+        <div className="gap-32  flex flex-row p-20 mb-40 overflow-x-clip">
           <div className=" flex flex-col text-white text-xl font-normal font-Roboto ">
             {'"'}But I must explain to you how all this mistaken idea of
             denouncing pleasure and praising pain was born and I will give you a

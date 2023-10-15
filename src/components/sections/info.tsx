@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Info() {
   return (
-    <div className="w-[100%] p-20 flex flex-col justify-center items-center h-auto bg-black text-center text-gray-100  ">
+    <div className="w-[100%] p-10 flex flex-col justify-center items-center h-auto bg-black text-center text-gray-100  ">
       <div>
-        <span className="text-purple-800 text-3xl lg:text-5xl font-bold font-Roboto">
-          Let’s{" "}
+        <span className="text-purple-800 text-4xl sm:text-5xl font-bold font-Roboto">
+          Let{"`"}s{" "}
         </span>
-        <span className="text-pink-500 text-3xl lg:text-5xl font-bold font-Roboto">
+        <span className="text-pink-500 text-4xl sm:text-5xl font-bold font-Roboto">
           build
         </span>
-        <span className="text-purple-800 text-3xl lg:text-5xl font-bold font-Roboto">
+        <span className="text-purple-800 text-4xl sm:text-5xl font-bold font-Roboto">
           {" "}
           your business together
         </span>
