@@ -26,7 +26,7 @@ function About() {
                 we're architects of transformation 🚀
               </div>
               <img className="mb-20" src="/svgs/curve.svg" alt="" />
-              <div className="text-justify text-purple-800 text-xl w-[80%] font-normal font-Roboto mx-auto pb-10">
+              <div className="text-center text-purple-800 text-xl w-[80%] font-normal font-Roboto mx-auto pb-10">
                 Our journey began with a deep passion for technology and a
                 vision for a future where businesses thrive in the digital
                 landscape. With years of experience in IT solutions, web design,

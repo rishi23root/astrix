@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Info() {
   return (
-    <div className="w-[100%] p-20 flex flex-col justify-center items-center h-auto bg-black text-center text-gray-100 mt-10 border">
+    <div className="w-[100%] p-20 flex flex-col justify-center items-center h-auto bg-black text-center text-gray-100  ">
       <div>
         <span className="text-purple-800 text-3xl lg:text-5xl font-bold font-Roboto">
           Let’s{" "}
@@ -23,7 +23,7 @@ export default function Info() {
           <img src="/svgs/info.svg" alt="" />
         </div>
         <img
-          className="absolute flex justify-center items-center ml-5 mb-20 transform rotate-180"
+          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180"
           src="/svgs/pointer.svg"
           alt=""
         />

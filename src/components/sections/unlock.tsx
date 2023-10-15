@@ -7,7 +7,7 @@ export default function Unlock() {
     <>
 
     {/* mobile Version */}
-    <div className=" hidden lg:inline-flex  w-[100%] border h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+    <div className=" hidden lg:inline-flex  w-[100%]  h-auto flex-col justify-start items-center gap-[236px] inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[31px] flex">
           <div className="w-[90%] text-center mt-40">
             <span className="text-gray-100 text-5xl md:text-3xl font-medium font-Roboto">
