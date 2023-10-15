@@ -3,7 +3,7 @@ import Line from "../Line";
 
 export default function Services() {
   return (
-    <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row ">
+    <section className="w-[100%] bg-zinc-950 rounded-bl-1/20 rounded-br-1/20 flex flex-col md:flex-row  z-10 rounded-t-[5em]">
       <div className="w-full md:w-1/2 p-4 md:p-20">
         <div className="w-full mb-20 leading-8 mt-48 lg:text-left text-center">
           <span className="text-purple-800 md:text-5xl text-4xl   md:text-center font-bold font-Roboto">

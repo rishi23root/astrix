@@ -22,7 +22,7 @@ export default function RootLayout({
         className={`${inter.className} bg-background`}
       >
         {children}
-        <TwScreenInfo />
+        {/* <TwScreenInfo /> */}
       </body>
     </html>
   );

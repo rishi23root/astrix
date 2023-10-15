@@ -164,7 +164,7 @@ function Footer() {
                 placeholder="Type your message..."
               />
               <div className="w-[40px]  h-[40px] bg-pink-400 rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer flex items-center justify-center">
-                <Image src="/svgs/send.svg" alt="" />
+                <Image src="/svgs/send.svg" width={200} height={100} alt="" />
               </div>
             </div>
           </div>

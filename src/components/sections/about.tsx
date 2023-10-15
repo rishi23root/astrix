@@ -2,9 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 function About() {
+  // add scroll animation
   return (
-    <section className=" w-full">
-      <div className="bg-zinc-950 rounded-br-[50px] h-auto lg:p-10">
+    <section className="w-full z-10">
+      <div className="bg-zinc-950 rounded-b-[5em] h-auto p-12">
         <div className="bg-white rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[50px] rounded-br-[50px]">
           <div className="fc fsc">
             <div className="w-full h-[10%] ">

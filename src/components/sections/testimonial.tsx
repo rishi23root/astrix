@@ -124,7 +124,13 @@ export default function Testimonial() {
                 customer
               </div>
             </div>
-            <Image className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
+            <Image
+              className="ml-80 mt-5"
+              src="/svgs/testimonial.svg"
+              width={150}
+              height={150}
+              alt=""
+            />
           </div>
         </div>
 
@@ -162,7 +168,13 @@ export default function Testimonial() {
                 customer
               </div>
             </div>
-            <Image className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
+            <Image
+              className="ml-80 mt-5"
+              src="/svgs/testimonial.svg"
+              alt=""
+              width={150}
+              height={150}
+            />
           </div>
           <div className="origin-top-left rotate-180 w-[52.91px] h-[37.80px] left-[556.86px] top-[301.11px] absolute"></div>
         </div>
