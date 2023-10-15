@@ -85,7 +85,7 @@ export default function Services() {
 
         <div className=" lg:w-3/4  mt-10 text-gray-100 text-xl font-light font-Roboto text-justify">
           Innovate with us. Product development that disrupts markets, sparks
-          growth, and sets industry standards. Let's craft your success story."
+          growth, and sets industry standards. Let{"'"}s craft your success story.
         </div>
         <Line />
       </div>

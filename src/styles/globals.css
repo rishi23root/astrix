@@ -82,9 +82,8 @@
   .fcc {
     @apply flex items-center justify-center;
   }
-  .fsc{
+  .fsc {
     @apply flex items-center justify-start;
-
   }
   .fce {
     @apply flex items-center justify-evenly;
@@ -112,7 +111,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 8.5rem;
-  border:none;
+  border: none;
 }
 
 body::-webkit-scrollbar {

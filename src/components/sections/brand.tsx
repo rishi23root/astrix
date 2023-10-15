@@ -1,4 +1,3 @@
-import React from "react";
 import svg1 from "../../../public/svgs/brands/svg1.svg";
 import svg2 from "../../../public/svgs/brands/svg2.svg";
 import svg3 from "../../../public/svgs/brands/svg3.svg";
@@ -7,8 +6,12 @@ import svg5 from "../../../public/svgs/brands/svg5.svg";
 import svg6 from "../../../public/svgs/brands/svg6.svg";
 import svg7 from "../../../public/svgs/brands/svg7.svg";
 import svg8 from "../../../public/svgs/brands/svg8.svg";
+import svg9 from "../../../public/svgs/brands/svg9.svg";
+import svg10 from "../../../public/svgs/brands/svg10.svg";
+import svg11 from "../../../public/svgs/brands/svg11.svg";
+import svg12 from "../../../public/svgs/brands/svg12.svg";
 import Image from "next/image";
-import Marquee from "@/components/custom/InfiniteScrolling";
+import Marquee from "react-fast-marquee";
 
 function Brand() {
   return (
@@ -17,8 +20,36 @@ function Brand() {
         <span className="text-pk">Trusted </span>&nbsp; by Top Brands
       </div>
       {/* all scrolling animations */}
-      <div className="overflow-x-hidden w-full mt-12">
-        <Marquee className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
+      <div className="w-full mt-12 gap-8 fc">
+        <Marquee speed={100} pauseOnHover>
+          <Image src={svg1} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg2} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg3} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg4} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg5} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg6} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg7} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg8} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg9} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg10} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg11} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg12} alt="svg" className="border p-2 mx-4 rounded-xl" />
+        </Marquee>
+        <Marquee speed={100} direction="right" pauseOnHover>
+          <Image src={svg1} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg2} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg3} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg4} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg5} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg6} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg7} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg8} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg9} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg10} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg11} alt="svg" className="border p-2 mx-4 rounded-xl" />
+          <Image src={svg12} alt="svg" className="border p-2 mx-4 rounded-xl" />
+        </Marquee>
+        {/* <Marquee animate={true} direction="left" speed="fast">
           <Image src={svg1} alt="svg" className="border p-2 rounded-xl" />
           <Image src={svg2} alt="svg" className="border p-2 rounded-xl" />
           <Image src={svg3} alt="svg" className="border p-2 rounded-xl" />
@@ -27,17 +58,11 @@ function Brand() {
           <Image src={svg6} alt="svg" className="border p-2 rounded-xl" />
           <Image src={svg7} alt="svg" className="border p-2 rounded-xl" />
           <Image src={svg8} alt="svg" className="border p-2 rounded-xl" />
-        </Marquee>
-        <Marquee className=" pl-8 justify-start items-start gap-[26.67px] inline-flex">
-          <Image src={svg1} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg2} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg3} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg4} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg5} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg6} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg7} alt="svg" className="border p-2 rounded-xl" />
-          <Image src={svg8} alt="svg" className="border p-2 rounded-xl" />
-        </Marquee>
+          <Image src={svg9} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg10} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg11} alt="svg" className="border p-2 rounded-xl" />
+          <Image src={svg12} alt="svg" className="border p-2 rounded-xl" />
+        </Marquee> */}
       </div>
     </div>
   );

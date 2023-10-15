@@ -164,55 +164,53 @@ function Footer() {
                 placeholder="Type your message..."
               />
               <div className="w-[40px]  h-[40px] bg-pink-400 rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer flex items-center justify-center">
-                <img src="/svgs/send.svg" alt="" />
+                <Image src="/svgs/send.svg" alt="" />
               </div>
             </div>
           </div>
-         
-
-      </div>
-      <div className="flex flex-col items-center text-center justify-center p-5 ">
-            <div className="flex flex-row items-center space-x-6 items-center">
-              <Link
-                href="#"
-                className="text-blue-500 hover-text-blue-700 flex items-center py-2"
-              >
-                <Image src={sm1} alt="" />
-              </Link>
-              <div className="w-[2px] h-10 bg-gray-300"></div>
-              <Link
-                href="#"
-                className="text-green-500 hover:text-green-700 flex items-center py-2"
-              >
-                <Image src={sm2} alt="" />
-              </Link>
-              <div className="w-[2px] h-10 bg-gray-300"></div>
-              <Link
-                href="#"
-                className="text-red-500 hover:text-red-700 flex items-center py-2"
-              >
-                <Image src={sm3} alt="" />
-              </Link>
-              <div className="w-[2px] h-10 bg-gray-300"></div>
-              <Link
-                href="#"
-                className="text-purple-500 hover:text-purple-700 flex items-center py-2"
-              >
-                <Image src={sm4} alt="" />
-              </Link>
-              <div className="w-[2px] h-10 bg-gray-300"></div>
-              <Link
-                href="#"
-                className="text-yellow-500 hover:text-yellow-700 flex items-center py-2"
-              >
-                <Image src={sm5} alt="" />
-              </Link>
-            </div>
+        </div>
+        <div className="flex flex-col items-center text-center justify-center p-5 ">
+          <div className="flex flex-row space-x-6 items-center">
+            <Link
+              href="#"
+              className="text-blue-500 hover-text-blue-700 flex items-center py-2"
+            >
+              <Image src={sm1} alt="" />
+            </Link>
+            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <Link
+              href="#"
+              className="text-green-500 hover:text-green-700 flex items-center py-2"
+            >
+              <Image src={sm2} alt="" />
+            </Link>
+            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <Link
+              href="#"
+              className="text-red-500 hover:text-red-700 flex items-center py-2"
+            >
+              <Image src={sm3} alt="" />
+            </Link>
+            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <Link
+              href="#"
+              className="text-purple-500 hover:text-purple-700 flex items-center py-2"
+            >
+              <Image src={sm4} alt="" />
+            </Link>
+            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <Link
+              href="#"
+              className="text-yellow-500 hover:text-yellow-700 flex items-center py-2"
+            >
+              <Image src={sm5} alt="" />
+            </Link>
           </div>
         </div>
-        <div className=" text-center text-stone-900 lg:text-[250px] text-7xl font-medium font-Roboto pb-0 ">
-          astrix
-        </div>
+      </div>
+      <div className=" text-center text-stone-900 lg:text-[250px] text-7xl font-medium font-Roboto pb-0 ">
+        astrix
+      </div>
     </footer>
   );
 }

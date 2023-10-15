@@ -1,5 +1,5 @@
+import Image from "next/image";
 import React from "react";
-
 
 export default function Testimonial() {
   return (
@@ -87,48 +87,47 @@ export default function Testimonial() {
           />
         </svg>
       </div>
-      
-        <div className="gap-32  flex flex-row p-20 mb-40 overflow-x-clip">
-          <div className=" flex flex-col text-white text-xl font-normal font-Roboto ">
-            {'"'}But I must explain to you how all this mistaken idea of
-            denouncing pleasure and praising pain was born and I will give you a
-            complete.{'"'}
-            <br />
-            <svg
-              width="100%"
-              height="33"
-              viewBox="0 0 100% 33"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
-                stroke="#F5EDF9"
-                strokeWidth="2"
-              />
-              <path
-                d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
-                stroke="#F5EDF9"
-                strokeWidth="2"
-              />
-            </svg>
-            <div className="relative ">
+
+      <div className="gap-32  flex flex-row p-20 mb-40 overflow-x-clip">
+        <div className=" flex flex-col text-white text-xl font-normal font-Roboto ">
+          {'"'}But I must explain to you how all this mistaken idea of
+          denouncing pleasure and praising pain was born and I will give you a
+          complete.{'"'}
+          <br />
+          <svg
+            width="100%"
+            height="33"
+            viewBox="0 0 100% 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
+              stroke="#F5EDF9"
+              strokeWidth="2"
+            />
+            <path
+              d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
+              stroke="#F5EDF9"
+              strokeWidth="2"
+            />
+          </svg>
+          <div className="relative ">
             <div className="left-0 top-5 absolute">
-                <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
-              </div>
-              <div className="left-[129.92px] top-[28.98px] absolute">
-                <div className=" top-0  text-white text-xl font-bold font-Roboto ">
-                  Chester Feil
-                </div>
-                <div className="left-0  absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
-                  customer
-                </div>
-              </div>
-              <img className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
-           
+              <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
             </div>
+            <div className="left-[129.92px] top-[28.98px] absolute">
+              <div className=" top-0  text-white text-xl font-bold font-Roboto ">
+                Chester Feil
+              </div>
+              <div className="left-0  absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+                customer
+              </div>
+            </div>
+            <Image className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
           </div>
-        
+        </div>
+
         <div className="flex flex-col text-white text-xl font-normal font-Roboto  ">
           {'"'}But I must explain to you how all this mistaken idea of
           denouncing pleasure and praising pain was born and I will give you a
@@ -152,25 +151,21 @@ export default function Testimonial() {
             />
           </svg>
           <div className="relative ">
-              
-              <div className="left-0 top-5 absolute">
-                <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
-              </div>
-              <div className=" left-[129.92px] top-[28.98px] absolute">
-                <div className=" top-0  text-white text-xl font-bold font-Roboto ">
-                  Chester Feil
-                </div>
-                <div className="left-0 absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
-                  customer
-                </div>
-              </div>
-                <img className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
+            <div className="left-0 top-5 absolute">
+              <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
             </div>
-          
-
-            <div className="origin-top-left rotate-180 w-[52.91px] h-[37.80px] left-[556.86px] top-[301.11px] absolute"></div>
+            <div className=" left-[129.92px] top-[28.98px] absolute">
+              <div className=" top-0  text-white text-xl font-bold font-Roboto ">
+                Chester Feil
+              </div>
+              <div className="left-0 absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+                customer
+              </div>
+            </div>
+            <Image className="ml-80 mt-5" src="/svgs/testimonial.svg" alt="" />
           </div>
-        
+          <div className="origin-top-left rotate-180 w-[52.91px] h-[37.80px] left-[556.86px] top-[301.11px] absolute"></div>
+        </div>
       </div>
     </div>
   );
