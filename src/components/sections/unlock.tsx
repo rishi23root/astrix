@@ -48,9 +48,7 @@ export default function Unlock() {
                 </div>
               </div>
             </div>
-            <div className="">
-              {/* <VLine1 /> */}
-            </div>
+            <div className="">{/* <VLine1 /> */}</div>
 
             <div className="flex-col justify-start items-center gap-10 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
@@ -97,12 +95,12 @@ export default function Unlock() {
       </div>
 
       {/* Mobile Version */}
-      <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-10 inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('../../public/unlock.png')]">
+      <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-10 inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[100px] text-center mt-8">
           <span className="text-gray-100 text-3xl font-medium font-Roboto">
             Unlock the future of efficiency with our <br />
           </span>
-          <span className="text-pink-500 text-3xl font-medium font-Roboto">
+          <span className="text-pink-500 text-3xl w-32 font-medium font-Roboto">
             AI Automation <br />
           </span>
           <span className="text-gray-100 text-3xl font-medium font-Roboto">
