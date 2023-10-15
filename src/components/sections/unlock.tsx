@@ -8,7 +8,7 @@ export default function Unlock() {
       {/* web Version */}
       <div className=" hidden lg:inline-flex  w-[100%]  h-auto flex-col justify-start items-center inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('/unlock.png')]">
         <div className="flex-col justify-start items-center gap-[31px] flex">
-          <div className="w-[90%] text-center mt-40">
+          <div className="p-10 text-center mt-40">
             <span className="text-gray-100 text-5xl  font-medium font-Roboto">
               Unlock the future of efficiency with our <br />
             </span>
@@ -26,7 +26,7 @@ export default function Unlock() {
             intelligence to automate repetitive tasks, make data-driven
             decisions, and optimize workflows across your organization.
           </div>
-
+          
           <div className="mt-20 justify-start items-center gap-20 inline-flex p-10">
             <div className="flex-col justify-start items-start gap-10 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex flex flex-wrap justify-center">
@@ -48,7 +48,8 @@ export default function Unlock() {
                 </div>
               </div>
             </div>
-            <div className="">{/* <VLine1 /> */}</div>
+            {/* <VLine1/> */}
+            
 
             <div className="flex-col justify-start items-center gap-10 inline-flex w-1/3">
               <div className="flex-col justify-start items-center gap-5 flex">
@@ -96,7 +97,7 @@ export default function Unlock() {
 
       {/* Mobile Version */}
       <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-10 inline-flex bg-cover bg-no-repeat bg-center bg-unlock  bg-[url('/unlock.png')]">
-        <div className="flex-col justify-start items-center gap-[100px] text-center mt-8">
+        <div className="flex-col justify-start items-center gap-10 text-center mt-8">
           <span className="text-gray-100 text-3xl font-medium font-Roboto">
             Unlock the future of efficiency with our <br />
           </span>
@@ -114,8 +115,8 @@ export default function Unlock() {
           </div>
         </div>
 
-        <div className="flex-col justify-start items-center gap-5 inline-flex">
-          <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
+        <div className="flex-col justify-start items-center   inline-flex">
+          <div className=" text-center text-gray-100 text-3xl w-48  font-semibold font-Roboto">
             Data Analytics
           </div>
           <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
@@ -123,32 +124,36 @@ export default function Unlock() {
             decision-making.
           </div>
 
-          <div className="text-center text-gray-100 text-3xl font-semibold font-Roboto">
+          <div className="mt-10"></div>
+
+          <div className="text-center text-gray-100 w-48 text-3xl font-semibold font-Roboto">
             Process Automation
           </div>
           <div className="p-5 text-center text-gray-100 text-xl font-light font-Roboto">
             Streamline workflows, reduce manual interventions, and boost
             operational efficiency.
           </div>
-        </div>
+        
 
-        <div className="flex-col justify-start items-center gap-5 inline-flex">
+        <div className="mt-10"></div>
+        
           <div className="text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Chatbots and Virtual Assistants:
           </div>
           <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
             Enhance customer support and engagement with intelligent chatbots.
           </div>
-
+          <div className="mt-10"></div>
           <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
             AI-Powered Marketing
           </div>
           <div className="p-5 text-gray-100 text-xl font-light font-Roboto text-center">
             Optimize marketing campaigns with AI-driven strategies.
           </div>
-        </div>
+        
+        <div className="mt-10"></div>
 
-        <div className="flex-col justify-start items-center gap-5 inline-flex">
+        
           <div className=" text-center text-gray-100 text-3xl font-semibold font-Roboto">
             Predictive Analytics
           </div>
@@ -157,12 +162,13 @@ export default function Unlock() {
             ahead in the digital age with AI Automations. Embrace the future of
             automation today.
           </div>
+          <div className="mt-10"></div>
           <div className="w-[220px] h-[60px] relative mb-10">
             <div className="w-[220px] h-[60px] left-0 top-0 absolute bg-pink-500 rounded-3xl">
               <div className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-100 text-xl font-bold font-Roboto">
                 Click to integrate
               </div>
-            </div>
+              </div>
           </div>
         </div>
       </div>
