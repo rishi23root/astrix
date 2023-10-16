@@ -1,12 +1,56 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { useRef } from "react";
+import {
+  circOut,
+  motion,
+  useMotionTemplate,
+  useMotionValueEvent,
+  useScroll,
+  useTransform,
+} from "framer-motion";
 
 function About() {
   // add scroll animation
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end end"],
+    smooth: 1,
+  });
+  const paddingInREM = useTransform(
+    scrollYProgress,
+    [0, 0.9], // Map x from these values:
+    [3, 0], // desied range to use here // Into these values:
+    { ease: circOut }
+  );
+  const radiusInREM = useTransform(
+    scrollYProgress,
+    [0, 1], // Map x from these values:
+    [4, 0], // desied range to use here // Into these values:
+    { ease: circOut }
+  );
+
+  // useMotionValueEvent(scrollYProgress, "change", (latest) => {
+  //   console.log("Page scroll: ", latest, paddingInREM.get());
+  // });
+
   return (
-    <section className="w-full z-10">
-      <div className="bg-zinc-950 rounded-b-[5em] h-auto p-12">
-        <div className="bg-white rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[50px] rounded-br-[50px]">
+    <section ref={ref} className="w-full z-10">
+      <motion.div
+        className="bg-zinc-950 h-auto"
+        style={{
+          padding: useMotionTemplate`${paddingInREM}rem`,
+          borderRadius: useMotionTemplate`${radiusInREM}rem`,
+        }}
+      >
+        <motion.div
+          className="bg-white"
+          style={{
+            borderRadius: useMotionTemplate`${radiusInREM}rem`,
+          }}
+        >
           <div className="fc fsc">
             <div className="w-full h-[10%] ">
               <div className="cointainer w-[90%] m-auto flex justify-start">
@@ -53,8 +97,8 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }
