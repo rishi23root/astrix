@@ -60,7 +60,7 @@ export default function Home() {
         <Info />
       </Suspense>
       <Suspense>
-        <Footer />
+      <Footer />
       </Suspense>
     </main>
   );
