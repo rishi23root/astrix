@@ -20,7 +20,7 @@ function Nav() {
           <NavLinks />
         </div>
         <div className="text-xl cursor-pointer ">
-         <Link href="https://calendly.com/tusharasthana2002/free-consultation">
+         <Link target="_blank"href="https://calendly.com/tusharasthana2002/free-consultation">
           <div className="bg-gradient-pp text-transparent bg-clip-text hidden md:block">
             CONSULT NOW
           </div>

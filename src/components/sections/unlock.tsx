@@ -203,7 +203,7 @@ export default function Unlock() {
           <div className="w-[220px] h-[60px] relative mb-10">
             <div className="w-[220px] h-[60px] left-0 top-0 absolute bg-pk rounded-3xl">
 
-              <Link href="https://calendly.com/tusharasthana2002/free-consultation" className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-300 text-xl font-bold font-Roboto">
+              <Link target="_blank"href="https://calendly.com/tusharasthana2002/free-consultation" className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-300 text-xl font-bold font-Roboto">
                 Click to integrate
               </Link>
             </div>
