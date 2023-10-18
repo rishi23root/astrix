@@ -105,7 +105,7 @@ const ScrollableSection = () => {
         }}
         className="w-full md:w-1/2 p-4 pt-8 md:p-24 fc fss lg:justify-center gap-4"
       >
-        <div className="w-full lg:w-[65%] leading-4 lg:leading-10 lg:text-left text-center">
+        <div className="w-full lg:w-[65%] leading-4 lg:leading-10 lg:text-left text-center" id="service">
           <span className="text-pe md:text-5xl text-2xl   md:text-center font-bold font-Roboto">
             Discover the power of Astrix{"`"}s <br /> comprehensive
           </span>

@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import {motion} from 'framer-motion'
 import About from "./about";
+import Link from "next/link";
 
 function HeroSection() {
 
@@ -58,12 +59,16 @@ function HeroSection() {
             </div>
           </div>
           <div className="fr items-center gap-8 lg:mx-8 flex-wrap fcc md:flex-nowrap md:fsc">
+            <Link href="https://calendly.com/tusharasthana2002/free-consultation">
             <div className="text-white p-4 px-8 border-2 rounded-lg">
               Consult Now
             </div>
+            </Link>
+            <Link href="/Assets/Astrix Brochure.pdf">
             <div className="text-center text-pk text-xl font-bold font-Roboto">
               Download Brochure
             </div>
+            </Link>
           </div>
         </motion.div>
 
