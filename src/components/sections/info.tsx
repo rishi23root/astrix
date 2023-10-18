@@ -26,7 +26,7 @@ export default function Info() {
             }}/>
         </div>
         <Image
-          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180"
+          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180 cursor-pointer"
           src="/svgs/pointer.svg"
           width={200}
           height={100}

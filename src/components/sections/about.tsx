@@ -35,7 +35,7 @@ function About() {
   // });
 
   return (
-    <section ref={ref} className="w-full z-10">
+    <section ref={ref} className="w-full z-10" >
       <motion.div
         className="bg-zinc-950 h-auto"
         style={{
@@ -49,7 +49,7 @@ function About() {
             borderRadius: useMotionTemplate`${radiusInREM}rem`,
           }}
         >
-          <div className="fc fsc">
+          <div className="fc fsc ">
             <div className="w-full h-[10%] ">
               <div className="cointainer w-[90%] m-auto flex justify-start">
                 <Image
@@ -61,7 +61,7 @@ function About() {
                 />
               </div>
             </div>
-            <div className="flex-col gap-2.5">
+            <div className="flex-col gap-2.5"  id="about">
               <div className="text-center pt-20">
                 <span className="text-zinc-900 lg:text-5xl text-3xl font-bold font-Roboto">
                   We are <br />

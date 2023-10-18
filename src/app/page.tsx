@@ -1,3 +1,5 @@
+"use client";
+
 import Nav from "@/components/Nav";
 import HeroSection from "@/components/sections/hero";
 import Footer from "@/components/Footer";

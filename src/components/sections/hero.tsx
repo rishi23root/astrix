@@ -2,8 +2,18 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import {motion} from 'framer-motion'
+import About from "./about";
 
 function HeroSection() {
+
+  const scrollToAbout = () => {
+    const AboutSection = document.getElementById("about");
+    if (AboutSection) {
+      AboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   useEffect(() => {
     function counter(id: string, start: number, end: number, duration: number) {
       let obj = document.getElementById(id),
@@ -98,13 +108,21 @@ function HeroSection() {
         </motion.div>
       </div>
       <motion.div layout className="absolute hidden xl:block bottom-0 left-[50%] -translate-x-[50%] w-32 h-32 ">
+      <div className="w-30 h-30 mt-20 flex justify-center items-center relative">
+        
+          <Image src="/svgs/info.svg" width={200} height={100} alt="" className="animate-spin" style={{
+            animationDuration: "6s"
+            }}/>
+        
         <Image
-          src={"/svgs/heroPageSomeThing.svg"}
-          height={300}
-          width={300}
-          alt="something"
-          className="-top-20 left-0 w-96 h-120 z-10 "
+        onClick={scrollToAbout}
+          className="absolute flex w-6 text-bold justify-center items-center  mt-8 transform cursor-pointer"
+          src="/svgs/pointer.svg"
+          width={200}
+          height={100}
+          alt=""
         />
+      </div>
       </motion.div>
     </section>
   );
