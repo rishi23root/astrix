@@ -1,22 +1,20 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import { useRef } from "react";
 import {
   circOut,
   motion,
   useMotionTemplate,
-  useMotionValueEvent,
   useScroll,
-  useTransform,
+  useTransform
 } from "framer-motion";
+import Image from "next/image";
+import { useRef } from "react";
 
 function About() {
   // add scroll animation
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end end"],
+    offset: ["start center", "end end"],
     smooth: 1,
   });
   const paddingInREM = useTransform(

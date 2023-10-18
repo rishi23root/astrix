@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Testimonial() {
   return (
-    <div className="w-full   bg-zinc-950 ">
+    <div className="w-full bg-zinc-950 ">
       <div className=" items-center text-center justify-center mt-20 mb-20">
         <span className="text-purple-800 text-5xl md:text-5xl font-medium font-Roboto">
           What people{" "}

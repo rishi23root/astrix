@@ -1,4 +1,5 @@
 "use client";
+
 import {
   motion,
   useMotionTemplate,
@@ -10,7 +11,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import clamp from "lodash/clamp";
 import { useLayoutEffect, useRef } from "react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 
 const ScrollableSection = () => {
   const refScrollTrigger = useRef<HTMLElement>(null);
@@ -64,6 +65,7 @@ const ScrollableSection = () => {
           onUpdate: (instance) => {
             progress.set(clamp(instance.progress, 0, 1));
             console.log(scrollHeightInPencentage.get());
+            
           },
         },
       });
@@ -80,7 +82,7 @@ const ScrollableSection = () => {
   return (
     <motion.section
       ref={refScrollTrigger}
-      className="w-full bg-zinc-950 fc md:fr z-10 min-h-screen max-h-screen snap-center gap-4 "
+      className="w-full bg-zinc-950 fc md:fr z-10 min-h-screen snap-center gap-4 border"
       style={{
         borderTopLeftRadius: useMotionTemplate`${radiusInREM}rem`,
         borderTopRightRadius: useMotionTemplate`${radiusInREM}rem`,
@@ -133,11 +135,11 @@ const ScrollableSection = () => {
       {/* scrolling part */}
       <motion.div
         ref={scrollableParentRef}
-        className="flex-1 border w-full md:w-1/2 max-h-screen relative overflow-hidden"
+        className="flex-1 w-full md:w-1/2 max-h-screen relative overflow-hidden"
       >
         <motion.div
           ref={scrollableContentRef}
-          className="w-full border px-4 fcc fc absolute top-0 left-0 translate-y-[50%]"
+          className="w-full px-4 fcc fc absolute top-0 left-0 translate-y-[50%]"
           style={{
             top: useMotionTemplate`${scrollHeightInPencentage}%`,
             translateY: useMotionTemplate`-${scrollHeightInPencentage}%`,

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Unlock() {
   return (
-    <section className="min-h-screen snap-center fcc bg-[url('/unlock.png')] bg-cover bg-no-repeat bg-center object-cover ">  
+    <section className="min-h-screen fcc bg-[url('/unlock.png')] bg-cover bg-no-repeat bg-center object-cover z-10 snap-center">
       {/* web view */}
       <div className="hidden lg:inline-flex w-full h-full fc fsc ">
         <div className="fc fcc gap-4 mx-8">
