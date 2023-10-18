@@ -11,9 +11,10 @@ import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
-    <main className="pt-8 snap-proximity snap-y ">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-8 snap-proximity snap-y ">
       <Nav />
       <HeroSection />
+      {/* compteted all the required animations till here */}
       <Brand />
       <About />
       <div className="w-full border border-green h-[20vh]">
@@ -38,8 +39,6 @@ export default function Home() {
       </div>
       <Services />
       <Unlock />
-      {/* compteted all the required animations till here */}
-
       <Testimonial />
       <Info />
       <Footer />
