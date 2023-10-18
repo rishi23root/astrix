@@ -38,8 +38,6 @@ export default function Home() {
       </div>
       <Services />
       <Unlock />
-
-      {/* compteted all the required animations till here */}
       <Testimonial />
       <Info />
       <Footer />
