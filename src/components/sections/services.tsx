@@ -12,6 +12,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import clamp from "lodash/clamp";
 import { useLayoutEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const ScrollableSection = () => {
   const refScrollTrigger = useRef<HTMLElement>(null);
@@ -64,7 +65,7 @@ const ScrollableSection = () => {
           trigger: refScrollTrigger.current,
           onUpdate: (instance) => {
             progress.set(clamp(instance.progress, 0, 1));
-            console.log(scrollHeightInPencentage.get());
+            // console.log(scrollHeightInPencentage.get());
           },
         },
       });
@@ -76,10 +77,11 @@ const ScrollableSection = () => {
       refTimeline.current?.kill();
       refTimeline.current?.clear();
     };
-  }, [progress, scrollHeightInPencentage]);
+  }, [progress]);
 
   return (
     <motion.section
+      id="service"
       ref={refScrollTrigger}
       className="w-full bg-zinc-950 fc md:fr z-10 min-h-screen gap-4  "
       style={{
@@ -123,11 +125,16 @@ const ScrollableSection = () => {
         </div>
 
         <div className="w-full lg:w-[80%] fcc md:fss ">
-          <Button className="fcc bg-background md:p-8 px-12  border border-white rounded-2xl ">
-            <span className="text-pk text-lg md:text-xl font-bold font-Roboto ">
-              Know More
-            </span>
-          </Button>
+          <Link
+            href="https://www.linkedin.com/company/astrixmarketing/"
+            target="_blank"
+          >
+            <Button className="fcc bg-background md:p-8 px-12  border border-white rounded-2xl ">
+              <span className="text-pk text-lg md:text-xl font-bold font-Roboto ">
+                Know More
+              </span>
+            </Button>
+          </Link>
         </div>
       </motion.div>
 

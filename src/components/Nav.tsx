@@ -20,9 +20,14 @@ function Nav() {
           <NavLinks />
         </div>
         <div className="text-xl cursor-pointer ">
-          <div className="bg-gradient-pp text-transparent bg-clip-text hidden md:block">
-            CONSULT NOW
-          </div>
+          <Link
+            target="_blank"
+            href="https://calendly.com/tusharasthana2002/free-consultation"
+          >
+            <div className="bg-gradient-pp text-transparent bg-clip-text hidden md:block">
+              CONSULT NOW
+            </div>
+          </Link>
           <div className="w-fit md:hidden fc ">
             <Suspense>
               <HamburgerOnMobile />
@@ -33,8 +38,5 @@ function Nav() {
     </div>
   );
 }
-
-
-
 
 export default Nav;

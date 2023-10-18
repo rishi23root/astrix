@@ -1,8 +1,15 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
+import Link from "next/link";
 
+const scrollToAbout = () => {
+  const AboutSection = document.getElementById("about");
+  if (AboutSection) {
+    AboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
 function HeroSection() {
   useEffect(() => {
     function counter(id: string, start: number, end: number, duration: number) {
@@ -31,8 +38,10 @@ function HeroSection() {
     <section className="w-full fc fcc relative">
       <div className="w-[80%] my-16 fr  flex-wrap xl:flex-nowrap gap-8">
         <motion.div
-          initial={{opacity:0}}
-          animate={{opacity:1}} className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  md:p-16">
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  md:p-16"
+        >
           <div className="fc self-start gap-8 lg:mx-8 ">
             <div className="text-center text-white text-3xl sm:text-5xl md:text-7xl md:text-left font-bold font-Roboto tracking-wider">
               Your Complete <br />
@@ -48,20 +57,28 @@ function HeroSection() {
             </div>
           </div>
           <div className="fr items-center gap-8 lg:mx-8 flex-wrap fcc md:flex-nowrap md:fsc">
-            <div className="text-white p-4 px-8 border-2 rounded-lg">
-              Consult Now
-            </div>
-            <div className="text-center text-pk text-xl font-bold font-Roboto">
-              Download Brochure
-            </div>
+            <Link
+              target="_blank"
+              href="https://calendly.com/tusharasthana2002/free-consultation"
+            >
+              <div className="text-white p-4 px-8 border-2 rounded-lg">
+                Consult Now
+              </div>
+            </Link>
+            <Link target="_blank" href="/Assets/Astrix Brochure.pdf">
+              <div className="text-center text-pk text-xl font-bold font-Roboto">
+                Download Brochure
+              </div>
+            </Link>
           </div>
         </motion.div>
 
         {/* image element */}
         <motion.div
-          initial={{opacity:0}}
-          animate={{opacity:1}}
-        className=" min-w-[50%] md:w-full">
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className=" min-w-[50%] md:w-full"
+        >
           <div className="m-auto w-fit relative ">
             <Image
               src={"/svgs/hero.svg"}
@@ -97,14 +114,31 @@ function HeroSection() {
           </div>
         </motion.div>
       </div>
-      <motion.div layout className="absolute hidden xl:block bottom-0 left-[50%] -translate-x-[50%] w-32 h-32 ">
-        <Image
-          src={"/svgs/heroPageSomeThing.svg"}
-          height={300}
-          width={300}
-          alt="something"
-          className="-top-20 left-0 w-96 h-120 z-10 "
-        />
+      <motion.div
+        layout
+        className="absolute hidden xl:block bottom-0 left-[50%] -translate-x-[50%] w-32 h-32 "
+      >
+        <div className="w-30 h-30 mt-20 flex justify-center items-center relative">
+          <Image
+            src="/svgs/info.svg"
+            width={200}
+            height={100}
+            alt=""
+            className="animate-spin"
+            style={{
+              animationDuration: "6s",
+            }}
+          />
+
+          <Image
+            onClick={scrollToAbout}
+            className="absolute flex w-6 text-bold justify-center items-center  mt-8 transform cursor-pointer"
+            src="/svgs/pointer.svg"
+            width={200}
+            height={100}
+            alt=""
+          />
+        </div>
       </motion.div>
     </section>
   );

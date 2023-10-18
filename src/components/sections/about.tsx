@@ -35,7 +35,7 @@ function About() {
   // });
 
   return (
-    <section ref={ref} className="w-full z-10  ">
+    <section id="about" ref={ref} className="w-full z-10  ">
       <motion.div
         className="bg-zinc-950 h-auto  "
         style={{

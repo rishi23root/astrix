@@ -4,13 +4,17 @@ import React from "react";
 export default function NavLinks() {
   return (
     <>
-      <Link href={"#about"} className="text-violet-50">
+      <Link href={"#service"} className="text-violet-50">
         What we do
       </Link>
-      <Link href={"#features"} className="text-violet-50">
+      <Link href={"#about"} className="text-violet-50">
         Who are we
       </Link>
-      <Link href={"#pricing"} className="text-violet-50">
+      <Link
+        href={"https://www.linkedin.com/company/astrixmarketing/"}
+        target="_blank"
+        className="text-violet-50"
+      >
         Careers
       </Link>
     </>

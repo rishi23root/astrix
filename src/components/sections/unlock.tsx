@@ -76,9 +76,14 @@ export default function Unlock() {
                 </div>
               </div>
               <div className="w-full h-20 fcc fc">
-                <Button className="bg-pk rounded-xl m-auto text-white px-12 py-8 text-2xl">
-                  Click to integrate
-                </Button>
+                <Link
+                  target="_blank"
+                  href="https://calendly.com/tusharasthana2002/free-consultation"
+                >
+                  <Button className="bg-pk rounded-xl m-auto text-white px-12 py-8 text-2xl">
+                    Click to integrate
+                  </Button>
+                </Link>
               </div>
             </div>
 

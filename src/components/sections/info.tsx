@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 
@@ -19,12 +20,24 @@ export default function Info() {
       <div className="text-3xl font-bold font-Roboto mt-10">
         info@astrix.co.in
       </div>
-      <div className="w-52 h-52 mt-20 flex justify-center items-center relative">
+      <div
+        onClick={() => window.scrollTo(0, 0)}
+        className="w-52 h-52 mt-20 flex justify-center items-center relative"
+      >
         <div className="w-40 h-40 ml-5 top-0 absolute bg-pk rounded-full flex justify-center items-center">
-          <Image src="/svgs/info.svg" width={200} height={100} alt="" />
+          <Image
+            src="/svgs/info.svg"
+            width={200}
+            height={100}
+            alt=""
+            className="animate-spin"
+            style={{
+              animationDuration: "6s",
+            }}
+          />
         </div>
         <Image
-          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180"
+          className="absolute flex w-8 justify-center items-center ml-5 mb-20 transform rotate-180 cursor-pointer"
           src="/svgs/pointer.svg"
           width={200}
           height={100}
