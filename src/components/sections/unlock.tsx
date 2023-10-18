@@ -1,10 +1,22 @@
+"use client";
 import React from "react";
 import { Button } from "../ui/button";
+import { motion } from "framer-motion";
 import Link from "next/link";
+
+const unlockVarient = {
+  active: {
+    opacity: 1,
+
+  },
+  inactive: {
+    opacity: 0,
+  },
+};
 
 export default function Unlock() {
   return (
-    <section className="min-h-screen fcc bg-[url('/unlock.png')] bg-cover bg-no-repeat bg-center object-cover z-10 snap-center">
+    <section className="min-h-screen fcc bg-[url('/unlock.png')] bg-cover bg-no-repeat bg-center object-cover z-10 snap-center py-8">
       {/* web view */}
       <div className="hidden lg:inline-flex w-full h-full fc fsc ">
         <div className="fc fcc gap-4 mx-8">
@@ -65,11 +77,9 @@ export default function Unlock() {
                 </div>
               </div>
               <div className="w-full h-20 fcc fc">
-                <Link href="https://calendly.com/tusharasthana2002/free-consultation">
                 <Button className="bg-pk rounded-xl m-auto text-white px-12 py-8 text-2xl">
                   Click to integrate
                 </Button>
-                </Link>
               </div>
             </div>
 
@@ -100,75 +110,102 @@ export default function Unlock() {
 
       {/* Mobile Version */}
       <div className=" lg:hidden w-full h-auto flex-col  justify-start items-center gap-10 inline-flex bg-cover bg-no-repeat bg-center   bg-[url('/unlock.png')]">
-        <div className="flex-col justify-start items-center gap-10 text-center mt-8">
-          <span className="text-gray-300 text-3xl font-medium font-Roboto">
-            Unlock the future of efficiency with our <br />
+        <div className="flex-col justify-start items-center text-center mt-8">
+          <span className="text-gray-300 text-4xl">
+            Unlock the future of efficiency with our &nbsp;
           </span>
-          <span className="text-pk text-3xl w-32 font-medium font-Roboto">
-            AI Automation <br />
-          </span>
+          <span className="text-pk text-4xl">AI Automation</span>
           <span className="text-gray-300 text-3xl font-medium font-Roboto">
             {" "}
             services
           </span>
-          <div className="text-gray-300 text-xl font-light font-Roboto mt-10  text-center p-5">
+          <div className="text-gray-300 text-xl font-light font-Roboto mt-5  text-center p-5">
             Our AI Automation services harness the power of artificial
             intelligence to automate repetitive tasks, make data-driven
             decisions, and optimize workflows across your organization.
           </div>
         </div>
 
-        <div className="flex-col justify-start items-center   inline-flex">
-          <div className=" text-center text-gray-300 text-3xl w-48  font-semibold font-Roboto">
-            Data Analytics
-          </div>
-          <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
-            Extract valuable insights from your data to drive data-driven
-            decision-making.
-          </div>
+        <div className="fsc fc gap-8">
+          <motion.div
+            variants={unlockVarient}
+            initial="inactive"
+            whileInView="active"
+            className="fcc fc"
+          >
+            <div className=" text-center text-gray-300 text-3xl w-48  font-semibold font-Roboto">
+              Data Analytics
+            </div>
+            <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
+              Extract valuable insights from your data to drive data-driven
+              decision-making.
+            </div>
+          </motion.div>
 
-          <div className="mt-10"></div>
+          <motion.div
+            variants={unlockVarient}
+            initial="inactive"
+            whileInView="active"
+            className="fcc fc"
+          >
+            <div className="text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
+              Process Automation
+            </div>
+            <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
+              Streamline workflows, reduce manual interventions, and boost
+              operational efficiency.
+            </div>
+          </motion.div>
 
-          <div className="text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
-            Process Automation
-          </div>
-          <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
-            Streamline workflows, reduce manual interventions, and boost
-            operational efficiency.
-          </div>
+          <motion.div
+            variants={unlockVarient}
+            initial="inactive"
+            whileInView="active"
+            className="fcc fc"
+          >
+            <div className="text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
+              Chatbots and Virtual Assistants:
+            </div>
+            <div className="p-5 text-gray-300 text-xl font-light font-Roboto text-center">
+              Enhance customer support and engagement with intelligent chatbots.
+            </div>
+          </motion.div>
+          <motion.div
+            variants={unlockVarient}
+            initial="inactive"
+            whileInView="active"
+            className="fcc fc"
+          >
+            <div className=" text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
+              AI-Powered Marketing
+            </div>
+            <div className="p-5 text-gray-300 text-xl font-light font-Roboto text-center">
+              Optimize marketing campaigns with AI-driven strategies.
+            </div>
+          </motion.div>
 
-          <div className="mt-10"></div>
+          <motion.div
+            variants={unlockVarient}
+            initial="inactive"
+            whileInView="active"
+            className="fcc fc"
+          >
+            <div className=" text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
+              Predictive Analytics
+            </div>
+            <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
+              Anticipate trends and behaviors for proactive decision-making.
+              Stay ahead in the digital age with AI Automations. Embrace the
+              future of automation today.
+            </div>
+          </motion.div>
 
-          <div className="text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
-            Chatbots and Virtual Assistants:
-          </div>
-          <div className="p-5 text-gray-300 text-xl font-light font-Roboto text-center">
-            Enhance customer support and engagement with intelligent chatbots.
-          </div>
-          <div className="mt-10"></div>
-          <div className=" text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
-            AI-Powered Marketing
-          </div>
-          <div className="p-5 text-gray-300 text-xl font-light font-Roboto text-center">
-            Optimize marketing campaigns with AI-driven strategies.
-          </div>
-
-          <div className="mt-10"></div>
-
-          <div className=" text-center text-gray-300 w-48 text-3xl font-semibold font-Roboto">
-            Predictive Analytics
-          </div>
-          <div className="p-5 text-center text-gray-300 text-xl font-light font-Roboto">
-            Anticipate trends and behaviors for proactive decision-making. Stay
-            ahead in the digital age with AI Automations. Embrace the future of
-            automation today.
-          </div>
-          <div className="mt-10"></div>
           <div className="w-[220px] h-[60px] relative mb-10">
             <div className="w-[220px] h-[60px] left-0 top-0 absolute bg-pk rounded-3xl">
-              <div className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-300 text-xl font-bold font-Roboto">
+
+              <Link href="https://calendly.com/tusharasthana2002/free-consultation" className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-300 text-xl font-bold font-Roboto">
                 Click to integrate
-              </div>
+              </Link>
             </div>
           </div>
         </div>

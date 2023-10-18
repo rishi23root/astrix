@@ -160,40 +160,42 @@ function Footer() {
         </div>
         <div className="flex flex-col items-center text-center justify-center p-5 ">
           <div className="flex flex-row space-x-6 items-center">
-            <Link
+            {/* <Link
               href="#"
-              className="text-blue-500 hover-text-blue-700 flex items-center py-2"
+              className="flex items-center py-2"
             >
-              <Image src={sm1} alt="" width={30} height={30}/>
+              <Image src={sm1} height={40} alt="" />
             </Link>
-            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <div className="w-[2px] h-10 bg-gray-300"></div> */}
             <Link
-              href="#"
+              href="https://www.linkedin.com/company/astrixmarketing/"
+              target="_blank"
               className="text-green-500 hover:text-green-700 flex items-center py-2"
             >
-              <Image src={sm2} alt="" width={30} height={30}/>
+              <Image src={sm2} height={40} alt="" />
             </Link>
             <div className="w-[2px] h-10 bg-gray-300"></div>
-            <Link
+            {/* <Link
               href="#"
               className="text-red-500 hover:text-red-700 flex items-center py-2"
             >
-              <Image src={sm3} alt="" width={30} height={30}/>
+              <Image src={sm3} height={40} alt="" />
             </Link>
-            <div className="w-[2px] h-10 bg-gray-300"></div>
+            <div className="w-[2px] h-10 bg-gray-300"></div> */}
             <Link
-              href="#"
+              target="_blank"
+              href="https://www.instagram.com/astrix_co_in/"
               className="text-pe hover:text-pe flex items-center py-2"
             >
-              <Image src={sm4} alt="" width={30} height={30}/>
+              <Image src={sm4} height={40} alt="" />
             </Link>
-            <div className="w-[2px] h-10 bg-gray-300"></div>
-            <Link
+            {/* <div className="w-[2px] h-10 bg-gray-300"></div> */}
+            {/* <Link
               href="#"
               className="text-yellow-500 hover:text-yellow-700 flex items-center py-2"
             >
-              <Image src={sm5} alt="" width={30} height={30} />
-            </Link>
+              <Image src={sm5} height={40} alt="" />
+            </Link> */}
           </div>
         </div>
       </div>
