@@ -22,6 +22,7 @@ export default function Testimonial() {
 
       <div className="fr overflow-x-scroll overflow-y-hidden gap-4 snap-center snap-mandatory h-[50vh]">
         <TestimonialData
+          link="/people/1.png"
           content="But I must explain to you how all this mistaken idea of
             denouncing pleasure and praising pain was born and I will give you a
             complete."
@@ -30,16 +31,19 @@ export default function Testimonial() {
         />
 
         <TestimonialData
+          link="/people/2.png"
           content="Astrix's campaign hit our target market right on the mark. In just a month of launching our campaign with them, we acquired 500+ customers spanning various cities and demographics. An excellent job!"
           name="Vijay Shekhar Shukla"
           position="Director, qbi institute"
         />
         <TestimonialData
+          link="/people/3.png"
           content="Astrix's approach was simply spectacular. They understand the nuances of the luxury market and tailored a campaign that aligned perfectly with our brand identity. In a short period, we witnessed a significant boost in our online presence and, most importantly, an increase in sales. Astrix is now our go-to agency for marketing solutions."
           name="Ayush Sharma"
           position="md, sharma optical and watches, gr noida"
         />
         <TestimonialData
+          link="/people/4.png"
           content="Astrix's quick response to our problem statement translated into an impressive online presence within just three days. Their focus on driving engagement for our ongoing campaigns. Thanks for the swift and effective support!"
           name="Ayush Gupta"
           position="coo, vaeral"
@@ -52,12 +56,12 @@ export default function Testimonial() {
 const TestimonialData = ({
   content,
   name,
-
+  link,
   position,
 }: {
   content: string;
   name: string;
-
+  link:string;
   position: string;
 }) => {
   return (
@@ -79,7 +83,7 @@ const TestimonialData = ({
       </div>
       <div className="relative fsc fr w-full">
         <div className="p-4 px-4">
-          <div className="w-32 h-32 bg-stone-500 rounded-full" />
+          <Image src={link} alt="people image" width={100} height={100} className="w-32 h-32 bg-stone-500 rounded-full" />
         </div>
         <div className="fr justify-between w-[60%]">
           <div className="text-lg font-medium font-Roboto uppercase leading-[28.80px]">
