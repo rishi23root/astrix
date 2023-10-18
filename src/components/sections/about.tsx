@@ -67,7 +67,7 @@ function About() {
                   We are <br />
                   humans who{" "}
                 </span>
-                <span className="text-purple-800 lg:text-5xl text-3xl font-bold font-Roboto">
+                <span className="text-pe lg:text-5xl text-3xl font-bold font-Roboto">
                   collaborates
                 </span>
                 <span className="text-zinc-900 lg:text-5xl text-3xl font-bold font-Roboto">
@@ -86,7 +86,7 @@ function About() {
                 alt="curve line svg"
                 className="p-5 mb-20 w-full"
               />
-              <div className="text-center text-purple-800 text-xl w-[80%] font-normal font-Roboto mx-auto pb-10">
+              <div className="text-center text-pe text-xl w-[80%] font-normal font-Roboto mx-auto pb-10">
                 Our journey began with a deep passion for technology and a
                 vision for a future where businesses thrive in the digital
                 landscape. With years of experience in IT solutions, web design,

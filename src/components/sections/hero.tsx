@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
+import {motion} from 'framer-motion'
 
 function HeroSection() {
   useEffect(() => {
@@ -29,7 +30,9 @@ function HeroSection() {
   return (
     <section className="w-full fc fcc relative">
       <div className="w-[80%] my-16 fr  flex-wrap xl:flex-nowrap gap-8">
-        <div className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  md:p-16">
+        <motion.div
+          initial={{opacity:0}}
+          animate={{opacity:1}} className="fc justify-center gap-20  min-w-[50%] md:w-full md:m-auto  md:p-16">
           <div className="fc self-start gap-8 lg:mx-8 ">
             <div className="text-center text-white text-3xl sm:text-5xl md:text-7xl md:text-left font-bold font-Roboto tracking-wider">
               Your Complete <br />
@@ -52,10 +55,13 @@ function HeroSection() {
               Download Brochure
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* image element */}
-        <div className=" min-w-[50%] md:w-full">
+        <motion.div
+          initial={{opacity:0}}
+          animate={{opacity:1}}
+        className=" min-w-[50%] md:w-full">
           <div className="m-auto w-fit relative ">
             <Image
               src={"/svgs/hero.svg"}
@@ -89,9 +95,9 @@ function HeroSection() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="absolute hidden xl:block bottom-0 left-[50%] -translate-x-[50%] w-32 h-32 ">
+      <motion.div layout className="absolute hidden xl:block bottom-0 left-[50%] -translate-x-[50%] w-32 h-32 ">
         <Image
           src={"/svgs/heroPageSomeThing.svg"}
           height={300}
@@ -99,7 +105,7 @@ function HeroSection() {
           alt="something"
           className="-top-20 left-0 w-96 h-120 z-10 "
         />
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -5,13 +5,13 @@ export default function Testimonial() {
   return (
     <div className="w-full bg-zinc-950 ">
       <div className=" items-center text-center justify-center mt-20 mb-20">
-        <span className="text-purple-800 text-5xl md:text-5xl font-medium font-Roboto">
+        <span className="text-pe text-5xl md:text-5xl font-medium font-Roboto">
           What people{" "}
         </span>
-        <span className=" text-pink-500 text-5xl font-medium font-Roboto">
+        <span className=" text-pk text-5xl font-medium font-Roboto">
           say <br className="lg:hidden" />
         </span>
-        <span className="text-purple-800 text-5xl font-medium font-Roboto">
+        <span className="text-pe text-5xl font-medium font-Roboto">
           {" "}
           about us
         </span>
@@ -120,7 +120,7 @@ export default function Testimonial() {
               <div className=" top-0  text-white text-xl font-bold font-Roboto ">
                 Chester Feil
               </div>
-              <div className="left-0  absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+              <div className="left-0  absolute text-pe text-lg font-medium font-Roboto uppercase leading-[28.80px]">
                 customer
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Testimonial() {
               <div className=" top-0  text-white text-xl font-bold font-Roboto ">
                 Chester Feil
               </div>
-              <div className="left-0 absolute text-purple-800 text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+              <div className="left-0 absolute text-pe text-lg font-medium font-Roboto uppercase leading-[28.80px]">
                 customer
               </div>
             </div>

@@ -5,13 +5,13 @@ export default function Info() {
   return (
     <div className="w-[100%] p-10 flex flex-col justify-center items-center h-auto bg-black text-center text-gray-100  ">
       <div>
-        <span className="text-purple-800 text-4xl sm:text-5xl font-bold font-Roboto">
+        <span className="text-pe text-4xl sm:text-5xl font-bold font-Roboto">
           Let{"`"}s{" "}
         </span>
-        <span className="text-pink-500 text-4xl sm:text-5xl font-bold font-Roboto">
+        <span className="text-pk text-4xl sm:text-5xl font-bold font-Roboto">
           build
         </span>
-        <span className="text-purple-800 text-4xl sm:text-5xl font-bold font-Roboto">
+        <span className="text-pe text-4xl sm:text-5xl font-bold font-Roboto">
           {" "}
           your business together
         </span>
@@ -20,7 +20,7 @@ export default function Info() {
         info@astrix.co.in
       </div>
       <div className="w-52 h-52 mt-20 flex justify-center items-center relative">
-        <div className="w-40 h-40 ml-5 top-0 absolute bg-pink-500 rounded-full flex justify-center items-center">
+        <div className="w-40 h-40 ml-5 top-0 absolute bg-pk rounded-full flex justify-center items-center">
           <Image src="/svgs/info.svg" width={200} height={100} alt="" />
         </div>
         <Image

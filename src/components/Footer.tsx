@@ -51,31 +51,31 @@ function Footer() {
             {/* web view */}
 
             <div className="mb-8  md:mb-0 text-left ml-20 hidden md:block mt-10">
-              <h3 className="text-lg font-bold mb-4 text-purple-700 text-Roboto">
+              <h3 className="text-lg font-bold mb-4 text-pe text-Roboto">
                 Information
               </h3>
               <nav className="space-y-2">
                 <Link
                   href="#"
-                  className="text-white hover:text-purple-700 transition duration-300 block"
+                  className="text-white hover:text-pe transition duration-300 block"
                 >
                   Home
                 </Link>
                 <Link
                   href="#"
-                  className="text-white hover:text-purple-700 transition duration-300 block"
+                  className="text-white hover:text-pe transition duration-300 block"
                 >
                   About Us
                 </Link>
                 <Link
                   href="#"
-                  className="text-white hover:text-purple-700 transition duration-300 block"
+                  className="text-white hover:text-pe transition duration-300 block"
                 >
                   Services
                 </Link>
                 <Link
                   href="#"
-                  className="text-white hover:text-purple-700 transition duration-300 block"
+                  className="text-white hover:text-pe transition duration-300 block"
                 >
                   Contact
                 </Link>
@@ -84,77 +84,77 @@ function Footer() {
           </div>
 
           <div className="mb-8 md:mb-0 text-left hidden md:block mt-10">
-            <h3 className="text-lg font-bold mb-4 text-purple-700">Services</h3>
+            <h3 className="text-lg font-bold mb-4 text-pe">Services</h3>
             <nav className="space-y-2">
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Website Development
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Application Development
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Product Development
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Branding & Social Media
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Digital Marketing
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 AI Automation
               </Link>
             </nav>
           </div>
           <div className="mb-8 md:mb-0 text-left hidden md:block mt-10">
-            <h3 className="text-lg font-bold mb-4 text-purple-700">Company</h3>
+            <h3 className="text-lg font-bold mb-4 text-pe">Company</h3>
             <nav className="space-y-2">
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Career
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Terms of Use
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Terms & Condition
               </Link>
               <Link
                 href="#"
-                className="text-white hover:text-purple-700 transition duration-300 block"
+                className="text-white hover:text-pe transition duration-300 block"
               >
                 Privacy Policy
               </Link>
             </nav>
           </div>
           <div className="text-center hidden md:block mt-10">
-            <h3 className="text-lg font-bold mb-4 text-purple-700">
+            <h3 className="text-lg font-bold mb-4 text-pe">
               Subscribe
             </h3>
             <div className="flex items-center bg-white  rounded-[14px]  mt-5">
@@ -163,7 +163,7 @@ function Footer() {
                 type="text"
                 placeholder="Type your message..."
               />
-              <div className="w-[40px]  h-[40px] bg-pink-400 rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer flex items-center justify-center">
+              <div className="w-[40px]  h-[40px] bg-pk rounded-tr-[14px] rounded-br-[14px] ml-2 cursor-pointer flex items-center justify-center">
                 <Image src="/svgs/send.svg" width={200} height={100} alt="" />
               </div>
             </div>
@@ -194,7 +194,7 @@ function Footer() {
             <div className="w-[2px] h-10 bg-gray-300"></div>
             <Link
               href="#"
-              className="text-purple-500 hover:text-purple-700 flex items-center py-2"
+              className="text-pe hover:text-pe flex items-center py-2"
             >
               <Image src={sm4} alt="" />
             </Link>

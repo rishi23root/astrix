@@ -36,7 +36,7 @@ const ScrollableSection = () => {
 
   const scrollHeightInPencentage = useTransform(
     progress, // x
-    [0, 1], // Map x from these values:
+    [0.1, 1], // Map x from these values:
     [0, 100] // desied range to use here // Into these values:
   );
 

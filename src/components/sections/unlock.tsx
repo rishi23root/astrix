@@ -101,7 +101,7 @@ export default function Unlock() {
           <span className="text-gray-300 text-3xl font-medium font-Roboto">
             Unlock the future of efficiency with our <br />
           </span>
-          <span className="text-pink-500 text-3xl w-32 font-medium font-Roboto">
+          <span className="text-pk text-3xl w-32 font-medium font-Roboto">
             AI Automation <br />
           </span>
           <span className="text-gray-300 text-3xl font-medium font-Roboto">
@@ -162,7 +162,7 @@ export default function Unlock() {
           </div>
           <div className="mt-10"></div>
           <div className="w-[220px] h-[60px] relative mb-10">
-            <div className="w-[220px] h-[60px] left-0 top-0 absolute bg-pink-500 rounded-3xl">
+            <div className="w-[220px] h-[60px] left-0 top-0 absolute bg-pk rounded-3xl">
               <div className="p-5 absolute text-center inset-0 flex items-center justify-center text-gray-300 text-xl font-bold font-Roboto">
                 Click to integrate
               </div>
