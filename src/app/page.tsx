@@ -1,5 +1,3 @@
-"use client";
-
 import Nav from "@/components/Nav";
 import HeroSection from "@/components/sections/hero";
 import Footer from "@/components/Footer";
@@ -13,14 +11,13 @@ import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-8 snap-proximity snap-y ">
+    <main className="pt-8 snap-proximity snap-y ">
       <Nav />
       <HeroSection />
-      {/* compteted all the required animations till here */}
       <Brand />
       <About />
-      <div className="w-full border border-green h-[20vh]">
-        <div className="w-full h-[40vh] bg-white -z-10 -translate-y-1/4 fcc">
+      <div className="w-full border border-green h-[20vh] uppercase">
+        <div className="w-full h-[40vh] bg-white -z-20 -translate-y-1/4 fcc ">
           <Marquee speed={150} pauseOnHover>
             <div className="text-5xl m-4 text-black ">creative</div>
             <div className="w-8 h-8 bg-pe m-4 rounded-full shadow-sm" />
@@ -42,6 +39,7 @@ export default function Home() {
       <Services />
       <Unlock />
       <Testimonial />
+      {/* compteted all the required animations till here */}
       <Info />
       <Footer />
     </main>
