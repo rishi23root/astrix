@@ -16,8 +16,8 @@ export default function Home() {
       <HeroSection />
       <Brand />
       <About />
-      <div className="w-full border border-green h-[20vh]">
-        <div className="w-full h-[40vh] bg-white -z-10 -translate-y-1/4 fcc">
+      <div className="w-full border border-green h-[20vh] uppercase">
+        <div className="w-full h-[40vh] bg-white -z-20 -translate-y-1/4 fcc ">
           <Marquee speed={150} pauseOnHover>
             <div className="text-5xl m-4 text-black ">creative</div>
             <div className="w-8 h-8 bg-pe m-4 rounded-full shadow-sm" />
@@ -38,8 +38,8 @@ export default function Home() {
       </div>
       <Services />
       <Unlock />
-      {/* compteted all the required animations till here */}
 
+      {/* compteted all the required animations till here */}
       <Testimonial />
       <Info />
       <Footer />

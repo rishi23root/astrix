@@ -1,11 +1,12 @@
-import ScrollableSection from "../../components/sections/test";
+import Testimonial from "@/components/sections/testimonial";
 
 export default function Home() {
   return (
-      <div className="w-full">
-        <section className="w-full min-h-screen text-white">this is the way</section>
-        <ScrollableSection />
-        <section className="w-full min-h-screen text-white">this is the way</section>
-      </div>
+    <div className="w-full">
+      <Testimonial />
+      <section className="w-full min-h-screen text-white border">
+        this is the way
+      </section>
+    </div>
   );
 }

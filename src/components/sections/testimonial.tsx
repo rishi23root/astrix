@@ -1,184 +1,100 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+// import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
 
 export default function Testimonial() {
   return (
-    <div className="w-full bg-zinc-950 ">
-      <div className=" items-center text-center justify-center mt-20 mb-20">
-        <span className="text-pe text-5xl md:text-5xl font-medium font-Roboto">
+    <div className="w-full bg-zinc-950 max-h-screen p-10 mb-10 ">
+      <div className=" items-center text-center justify-center my-10">
+        <span className="text-purple-800 text-5xl md:text-5xl font-medium font-Roboto">
           What people{" "}
         </span>
-        <span className=" text-pk text-5xl font-medium font-Roboto">
+        <span className=" text-pink-500 text-5xl font-medium font-Roboto">
           say <br className="lg:hidden" />
         </span>
-        <span className="text-pe text-5xl font-medium font-Roboto">
+        <span className="text-purple-800 text-5xl font-medium font-Roboto">
           {" "}
           about us
         </span>
       </div>
-      <div className="flex flex-row items-center justify-center mb-20">
-        <svg
-          width="207"
-          height="88"
-          viewBox="0 0 207 88"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <ellipse cx="162.643" cy="44" rx="44.3571" ry="44" fill="#784694" />
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M173.486 45.3306H149.829H173.486Z"
-            fill="#784694"
-          />
-          <path
-            d="M173.486 45.3306H149.829"
-            stroke="white"
-            strokeWidth="2.95714"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M163.943 35.9059C163.943 35.9059 173.485 41.0075 173.485 45.3285C173.485 49.6526 163.943 54.7559 163.943 54.7559"
-            fill="#784694"
-          />
-          <path
-            d="M163.943 35.9059C163.943 35.9059 173.485 41.0075 173.485 45.3285C173.485 49.6526 163.943 54.7559 163.943 54.7559"
-            stroke="white"
-            strokeWidth="2.95714"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <ellipse
-            cx="44.3572"
-            cy="44"
-            rx="44.3571"
-            ry="44"
-            transform="rotate(180 44.3572 44)"
-            fill="#F5EDF9"
-          />
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M33.5142 42.6694L57.1714 42.6694L33.5142 42.6694Z"
-            fill="#F5EDF9"
-          />
-          <path
-            d="M33.5142 42.6694L57.1714 42.6694"
-            stroke="#D058B7"
-            strokeWidth="2.95714"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M43.0566 52.0941C43.0566 52.0941 33.5149 46.9925 33.5149 42.6715C33.5149 38.3474 43.0566 33.2441 43.0566 33.2441"
-            fill="#F5EDF9"
-          />
-          <path
-            d="M43.0566 52.0941C43.0566 52.0941 33.5149 46.9925 33.5149 42.6715C33.5149 38.3474 43.0566 33.2441 43.0566 33.2441"
-            stroke="#D058B7"
-            strokeWidth="2.95714"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </div>
 
-      <div className="gap-32  flex flex-row p-20 mb-40 overflow-x-clip">
-        <div className=" flex flex-col text-white text-xl font-normal font-Roboto ">
-          {'"'}But I must explain to you how all this mistaken idea of
-          denouncing pleasure and praising pain was born and I will give you a
-          complete.{'"'}
-          <br />
-          <svg
-            width="100%"
-            height="33"
-            viewBox="0 0 100% 33"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
-              stroke="#F5EDF9"
-              strokeWidth="2"
-            />
-            <path
-              d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
-              stroke="#F5EDF9"
-              strokeWidth="2"
-            />
-          </svg>
-          <div className="relative ">
-            <div className="left-0 top-5 absolute">
-              <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
-            </div>
-            <div className="left-[129.92px] top-[28.98px] absolute">
-              <div className=" top-0  text-white text-xl font-bold font-Roboto ">
-                Chester Feil
-              </div>
-              <div className="left-0  absolute text-pe text-lg font-medium font-Roboto uppercase leading-[28.80px]">
-                customer
-              </div>
-            </div>
-            <Image
-              className="ml-80 mt-5"
-              src="/svgs/testimonial.svg"
-              width={150}
-              height={150}
-              alt=""
-            />
-          </div>
-        </div>
+      <div className="fr overflow-x-scroll overflow-y-hidden gap-4 snap-center snap-mandatory h-[50vh]">
+        <TestimonialData
+          content="But I must explain to you how all this mistaken idea of
+            denouncing pleasure and praising pain was born and I will give you a
+            complete."
+          name="Raj Singh"
+          position="Marketing Director"
+        />
 
-        <div className="flex flex-col text-white text-xl font-normal font-Roboto  ">
-          {'"'}But I must explain to you how all this mistaken idea of
-          denouncing pleasure and praising pain was born and I will give you a
-          complete.{'"'} <br />
-          <svg
-            width="100%"
-            height="33"
-            viewBox="0 0 100% 33"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M718.185 0V14.4882H88.8808H73.3686L62.4235 23.9373L51.4784 14.4882H45.1003H0.689941"
-              stroke="#F5EDF9"
-              strokeWidth="2"
-            />
-            <path
-              d="M710.626 5.03955V21.4177H88.8808H73.9985L63.0534 30.8667L52.1083 21.4177H45.1003H0.689941"
-              stroke="#F5EDF9"
-              strokeWidth="2"
-            />
-          </svg>
-          <div className="relative ">
-            <div className="left-0 top-5 absolute">
-              <div className="w-24 h-24 left-0 top-0 absolute bg-stone-500 rounded-full" />
-            </div>
-            <div className=" left-[129.92px] top-[28.98px] absolute">
-              <div className=" top-0  text-white text-xl font-bold font-Roboto ">
-                Chester Feil
-              </div>
-              <div className="left-0 absolute text-pe text-lg font-medium font-Roboto uppercase leading-[28.80px]">
-                customer
-              </div>
-            </div>
-            <Image
-              className="ml-80 mt-5"
-              src="/svgs/testimonial.svg"
-              alt=""
-              width={150}
-              height={150}
-            />
-          </div>
-          <div className="origin-top-left rotate-180 w-[52.91px] h-[37.80px] left-[556.86px] top-[301.11px] absolute"></div>
-        </div>
+        <TestimonialData
+          content="Astrix's campaign hit our target market right on the mark. In just a month of launching our campaign with them, we acquired 500+ customers spanning various cities and demographics. An excellent job!"
+          name="Vijay Shekhar Shukla"
+          position="Director, qbi institute"
+        />
+        <TestimonialData
+          content="Astrix's approach was simply spectacular. They understand the nuances of the luxury market and tailored a campaign that aligned perfectly with our brand identity. In a short period, we witnessed a significant boost in our online presence and, most importantly, an increase in sales. Astrix is now our go-to agency for marketing solutions."
+          name="Ayush Sharma"
+          position="md, sharma optical and watches, gr noida"
+        />
+        <TestimonialData
+          content="Astrix's quick response to our problem statement translated into an impressive online presence within just three days. Their focus on driving engagement for our ongoing campaigns. Thanks for the swift and effective support!"
+          name="Ayush Gupta"
+          position="coo, vaeral"
+        />
       </div>
     </div>
   );
 }
+
+const TestimonialData = ({
+  content,
+  name,
+
+  position,
+}: {
+  content: string;
+  name: string;
+
+  position: string;
+}) => {
+  return (
+    <div className="fc text-white text-xl font-Roboto min-w-full lg:min-w-[47vw] p-4 h-[47vh] fss fc snap-start glass  ">
+      <div className="md:text-md text-sm leading-relaxed min-h-[40%] ">
+        {'"'}
+        {content}
+        {'"'}
+      </div>
+      seperator
+      <div className="w-full">
+        <Image
+          src={"/svgs/testimonialSeperator.svg"}
+          width={20}
+          height={8}
+          alt="just a seperator"
+          className="w-full h-12 object-fit"
+        />
+      </div>
+      <div className="relative fsc fr w-full">
+        <div className="p-4 px-4">
+          <div className="w-32 h-32 bg-stone-500 rounded-full" />
+        </div>
+        <div className="fr justify-between w-[60%]">
+          <div className="text-lg font-medium font-Roboto uppercase leading-[28.80px]">
+            <div>{name}</div>
+            <div className="text-pe ">{position}</div>
+          </div>
+          <Image
+            className="w-20"
+            src="/svgs/testimonial.svg"
+            width={30}
+            height={30}
+            alt="test"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
