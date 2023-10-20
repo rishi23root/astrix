@@ -16,7 +16,7 @@ import Marquee from "react-fast-marquee";
 function Brand() {
   return (
     <div className="w-full fc fcc py-12 my-12 ">
-      <div className="text-3xl md:text-6xl font-medium text-white fcc ">
+      <div className="text-3xl md:text-6xl font-medium text-white text-center">
         <span className="text-pk">Trusted </span>&nbsp; by Top Brands
       </div>
       {/* all scrolling animations */}
