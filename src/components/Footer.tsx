@@ -137,7 +137,7 @@ function Footer() {
           </div>
         </div>
         {/* social links */}
-        <div className="md:hidden">
+        <div className="md:hidden w-[60%]">
           <Subscribe />
         </div>
         <div className="fcc fc text-center justify-center p-5">
